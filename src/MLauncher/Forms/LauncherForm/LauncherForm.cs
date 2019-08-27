@@ -104,17 +104,6 @@ namespace MLauncher.Forms
 
         public LauncherForm(Configuration configuration)
         {
-            if (Application.ExecutablePath.Contains("UpdateTmp-1"))
-            {
-                File.Copy(Application.ExecutablePath, Application.ExecutablePath.Replace(".UpdateTmp-1.exe", ""));
-                Process.Start(Application.ExecutablePath.Replace(".UpdateTmp-1.exe", ""));
-                return;
-            }
-            try
-            {
-                File.Delete(Application.ExecutablePath + ".UpdateTmp-1.exe");
-            }
-            catch { }
             if (DesignMode) return;
 
             _configuration = configuration;
