@@ -40,11 +40,10 @@ namespace MLauncher.Forms
 
         private void RadButton1_Click(object sender, EventArgs e)
         {
-            string newpatch = Application.ExecutablePath + rls.Tag;
+            string newpatch = Application.ExecutablePath.Replace(".exe","_"+rls.Tag+".exe");
             WebClient w = new WebClient();
             w.DownloadFile(@"https://github.com/dommilosz/MLauncher/releases/download/" + rls.Tag + "/MLauncher.exe", newpatch);
             Process.Start(newpatch);
-            MessageBox.Show("Updated");
             Application.Exit();
         }
     }
