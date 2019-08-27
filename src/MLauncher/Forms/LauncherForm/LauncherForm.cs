@@ -104,27 +104,18 @@ namespace MLauncher.Forms
 
         public LauncherForm(Configuration configuration)
         {
-            
             if (Application.ExecutablePath.Contains("UpdateTmp-1"))
             {
-                string newpatch = Application.ExecutablePath;
-                newpatch = newpatch.Replace(".UpdateTmp-1.exe", "");
-                try
-                {
-                    File.Delete(newpatch);
-                }
-                catch { }
-                File.Copy(Application.ExecutablePath, newpatch);
-                Process.Start(newpatch);
-                Application.Exit();
+                File.Copy(Application.ExecutablePath, Application.ExecutablePath.Replace(".UpdateTmp-1.exe", ""));
+                Process.Start(Application.ExecutablePath.Replace(".UpdateTmp-1.exe", ""));
                 return;
             }
-            if (DesignMode) return;
             try
             {
                 File.Delete(Application.ExecutablePath + ".UpdateTmp-1.exe");
             }
             catch { }
+            if (DesignMode) return;
 
             _configuration = configuration;
             _nicknameDictionary = new Dictionary<string, Tuple<string, DateTime>>();
@@ -1528,7 +1519,7 @@ Please, check for your Internet configuration and restart the launcher.
                     return;
                 }
                 AppendLog("Found update.");
-                UpdateForm updateForm = new UpdateForm(latest, _configuration);
+                UpdateForm updateForm = new UpdateForm(latest, _configuration,this);
                 updateForm.ShowDialog();
                 CheckUpdatesCheckBox.Checked = updateForm.autocheckCheckBox.Checked;
             }

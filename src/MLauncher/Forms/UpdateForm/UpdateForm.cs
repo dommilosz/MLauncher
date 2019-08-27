@@ -9,9 +9,10 @@ namespace MLauncher.Forms
     public partial class UpdateForm : Telerik.WinControls.UI.RadForm
     {
         private Configuration _configuration { get; }
-        GitHubRelease rls = null;
+        GitHubRelease rls;
+        LauncherForm form;
 
-        public UpdateForm(GitHubRelease release, Configuration configuration)
+        public UpdateForm(GitHubRelease release, Configuration configuration,LauncherForm f)
         {
             rls = release;
             _configuration = configuration;
@@ -20,6 +21,7 @@ namespace MLauncher.Forms
             autocheckCheckBox.Checked = _configuration.ApplicationConfiguration.CheckLauncherUpdates;
             Text = $"Found update: {release.Name}";
             changelogBox.Text = $"{release.Description}";
+            form = f;
         }
 
         private void goButton_Click(object sender, EventArgs e)
@@ -38,13 +40,10 @@ namespace MLauncher.Forms
 
         private void RadButton1_Click(object sender, EventArgs e)
         {
-            InitializeComponent();
             string newpatch = Application.ExecutablePath + ".UpdateTmp-1.exe";
             WebClient w = new WebClient();
             w.DownloadFile(@"https://github.com/dommilosz/MLauncher/releases/download/" + rls.Tag + "/MLauncher.exe", newpatch);
-            w.Dispose();
             Process.Start(newpatch);
-            Application.Exit();
         }
     }
 }
