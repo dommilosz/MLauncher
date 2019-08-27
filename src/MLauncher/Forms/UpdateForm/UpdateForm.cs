@@ -44,6 +44,8 @@ namespace MLauncher.Forms
             WebClient w = new WebClient();
             w.DownloadFile(@"https://github.com/dommilosz/MLauncher/releases/download/" + rls.Tag + "/MLauncher.exe", newpatch);
             Process.Start(newpatch);
+            MessageBox.Show("Updated");
+            Application.Exit();
         }
     }
 }
