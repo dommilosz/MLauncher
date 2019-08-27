@@ -1,0 +1,11 @@
+language: csharp
+solution: MLauncher.sln
+install:
+- travis_retry nuget restore -source "https://www.nuget.org/api/v2" MLauncher.sln
+script:
+- xbuild /validate ./src/dotMCLauncher/dotMCLauncher.csproj
+- xbuild /validate ./src/dotMCLauncher.Networking/dotMCLauncher.Networking.csproj
+- xbuild /validate ./src/dotMCLauncher.Profiling/dotMCLauncher.Profiling.csproj
+- xbuild /validate ./src/dotMCLauncher.Profiling.V2/dotMCLauncher.Profiling.V2.csproj
+- xbuild /validate ./src/dotMCLauncher.Resourcing/dotMCLauncher.Resourcing.csproj
+- xbuild /validate ./src/dotMCLauncher.Versioning/dotMCLauncher.Versioning.csproj
