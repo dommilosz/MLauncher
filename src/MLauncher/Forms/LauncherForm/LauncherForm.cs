@@ -200,7 +200,7 @@ Please, check for your Internet configuration and restart the launcher.
             }
             else
             {
-                newsBrowser.Navigate("http://dedepete.github.io/FreeLauncher");
+                newsBrowser.Navigate("http://dommilosz.github.io/MLauncher");
                 CheckLauncherUpdates();
             }
 
