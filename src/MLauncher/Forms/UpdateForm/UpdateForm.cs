@@ -42,8 +42,13 @@ namespace MLauncher.Forms
         {
             string newpatch = Application.ExecutablePath.Replace(".exe","_"+rls.Tag+".exe");
             WebClient w = new WebClient();
+            string exec = Application.ExecutablePath.Replace(Application.StartupPath, "");
+            string execnew = newpatch.Replace(Application.StartupPath, "");
+            exec = exec.TrimStart(@"\".ToCharArray()[0]);
+            execnew = execnew.TrimStart(@"\".ToCharArray()[0]);
             w.DownloadFile(@"https://github.com/dommilosz/MLauncher/releases/download/" + rls.Tag + "/MLauncher.exe", newpatch);
-            Process.Start(newpatch);
+            w.DownloadFile(@"https://github.com/dommilosz/MLauncher/releases/download/v0.2.0/Update.bat", Application.StartupPath+"Update.bat");
+            Process.Start(Application.StartupPath + "Update.bat", "\""+execnew+"\" \""+exec+"\"" );
             Application.Exit();
         }
     }
