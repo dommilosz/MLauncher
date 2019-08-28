@@ -230,7 +230,7 @@
     </Compile>
     <EmbeddedResource Include="Translations\en_UK\lang.json" />
     <EmbeddedResource Include="Translations\ru_RU\lang.json" />
-    <None Include="Translations\pl_PL\lang.json" />
+    <EmbeddedResource Include="Translations\pl_PL\lang.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\minecraft-logo.png" />

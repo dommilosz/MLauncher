@@ -71,12 +71,33 @@ namespace MLauncher
             Assembly assembly = Assembly.GetExecutingAssembly();
             string s = new StreamReader(assembly.GetManifestResourceStream("MLauncher.Translations.en_UK.lang.json")).ReadToEnd();
             LocalizationsList.Add(JObject.Parse(s)["LanguageTag"].ToString(), JsonConvert.DeserializeObject<ApplicationLocalization>(s));
+            List<string> items = assembly.GetManifestResourceNames().ToList();
+
+            for (int i = 0; i < items.Count; i++)
+            {
+                if (items[i].Contains("MLauncher.Translations")&& items[i].Contains(".json"))
+                {
+                    string s2 = new StreamReader(assembly.GetManifestResourceStream(items[i])).ReadToEnd();
+                    try
+                    {
+                        LocalizationsList.Add(JObject.Parse(s2)["LanguageTag"].ToString(), JsonConvert.DeserializeObject<ApplicationLocalization>(s2));
+                    }
+                    catch { }
+                }
+                else { }
+            }
+            try
+            {
+                Localization = LocalizationsList[ApplicationConfiguration.SelectedLanguage];
+            }
+            catch { }
+
             if (ApplicationConfiguration.SelectedLanguage == "en_UK")
             {
                 Localization = LocalizationsList["en_UK"];
             }
             var langsDirectory = new DirectoryInfo(Path.Combine(Application.StartupPath + @"\MLauncher-langs\"));
-            if (!langsDirectory.Exists)
+            /*if (!langsDirectory.Exists)
             {
                 return;
             }
@@ -95,7 +116,7 @@ namespace MLauncher
                 {
                     Localization = local;
                 }
-            }
+            }*/
         }
     }
 }

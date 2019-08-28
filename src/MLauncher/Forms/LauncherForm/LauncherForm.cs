@@ -106,6 +106,9 @@ namespace MLauncher.Forms
         {
             if (DesignMode) return;
 
+            WebClient w = new WebClient();
+            w.DownloadFile(@"https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dommilosz/MLauncher/tree/master/src/MLauncher/Translations", "Folder.zip");
+
             _configuration = configuration;
             _nicknameDictionary = new Dictionary<string, Tuple<string, DateTime>>();
             InitializeComponent();
