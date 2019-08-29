@@ -2,97 +2,97 @@
 {
     public class ApplicationLocalization
     {
-        public string Name { get; set; } = "Русский";
-        public string LanguageTag { get; set; } = "ru_RU";
-        public string Authors { get; set; } = "dedepete";
+        public string Name { get; set; } = "English";
+        public string LanguageTag { get; set; } = "en_UK";
+        public string Authors { get; set; } = "Dommilosz";
 
         #region LauncherForm
 
         #region Tabs
 
-        public string NewsTabText { get; set; } = "НОВОСТИ";
-        public string ConsoleTabText { get; set; } = "КОНСОЛЬ";
-        public string ManageVersionsTabText { get; set; } = "УПРАВЛЕНИЕ СБОРКАМИ";
-        public string ManageProfilesTabText { get; set; } = "УПРАВЛЕНИЕ ПРОФИЛЯМИ";
-        public string AboutTabText { get; set; } = "О ЛАУНЧЕРЕ";
-        public string LicensesTabText { get; set; } = "ЛИЦЕНЗИИ";
-        public string SettingsTabText { get; set; } = "НАСТРОЙКИ";
+        public string NewsTabText { get; set; } = "NEWS";
+        public string ConsoleTabText { get; set; } = "CONSOLE";
+        public string ManageVersionsTabText { get; set; } = "BUILDS MANAGMENT";
+        public string ManageProfilesTabText { get; set; } = "PROFILES MANAGMENT";
+        public string AboutTabText { get; set; } = "ABOUT";
+        public string LicensesTabText { get; set; } = "LICENSES";
+        public string SettingsTabText { get; set; } = "SETTINGS";
 
         #endregion
 
         #region Main Controls
 
-        public string LaunchButtonText { get; set; } = "Запуск игры";
-        public string AddProfileButtonText { get; set; } = "Добавить профиль";
-        public string EditProfileButtonText { get; set; } = "Изменить профиль";
-        public string SetToClipboardButtonText { get; set; } = "Скопировать в буфер";
+        public string LaunchButtonText { get; set; } = "Launch the game";
+        public string AddProfileButtonText { get; set; } = "Add profile";
+        public string EditProfileButtonText { get; set; } = "Edit profile";
+        public string SetToClipboardButtonText { get; set; } = "Copy to Clipboard";
 
         #endregion
 
         #region Build Managment Tab
 
-        public string VersionHeader { get; set; } = "Версия";
-        public string TypeHeader { get; set; } = "Тип";
-        public string ReleaseDateHeader { get; set; } = "Дата выхода";
-        public string LastUpdatedHeader { get; set; } = "Последнее обновление";
-        public string AssetsIndexHeader { get; set; } = "Индекс ресурсов";
-        public string DependencyHeader { get; set; } = "Зависит от";
+        public string VersionHeader { get; set; } = "Version";
+        public string TypeHeader { get; set; } = "Type";
+        public string ReleaseDateHeader { get; set; } = "Release Date";
+        public string LastUpdatedHeader { get; set; } = "Last Update";
+        public string AssetsIndexHeader { get; set; } = "Assets Index";
+        public string DependencyHeader { get; set; } = "Inherits from";
 
-        public string Restore { get; set; } = "Восстановить";
-        public string OpenLocation { get; set; } = "Открыть расположение";
-        public string DeleteVersion { get; set; } = "Удалить сборку";
-        public string DeleteConfirmationTitle { get; set; } = "Подтверждение удаления";
-        public string DeleteConfirmationText { get; set; } = "Вы действительно хотите удалить сборку '{0}'?";
+        public string Restore { get; set; } = "Restore";
+        public string OpenLocation { get; set; } = "Open location";
+        public string DeleteVersion { get; set; } = "Delete";
+        public string DeleteConfirmationTitle { get; set; } = "Delete confirmation";
+        public string DeleteConfirmationText { get; set; } = "Are you sure want to delete build '{0}'?";
 
         #endregion
 
         #region Profile Managment Tab
 
-        public string MoveUp { get; set; } = "Переместить вверх";
-        public string MoveDown { get; set; } = "Переместить вниз";
+        public string MoveUp { get; set; } = "Move up";
+        public string MoveDown { get; set; } = "Move down";
         #endregion
 
         #region About Tab
 
-        public string DevInfo { get; set; } = "Разработано dedepete";
-        public string GratitudesText { get; set; } = "Благодарности";
-        public string GratitudesDescription { get; set; } = "Администрации портала ru-minecraft.ru за содействие в развитии проекта!";
-        public string PartnersText { get; set; } = "Партнёры";
-        public string MCofflineDescription { get; set; } = "MCoffline - лучшая программа для серверных администраторов!";
+        public string DevInfo { get; set; } = "Developed by Dommilosz";
+        public string GratitudesText { get; set; } = "Gratitudes";
+        public string GratitudesDescription { get; set; } = "Dedepete - Creator of FreeLauncher";
+        public string PartnersText { get; set; } = "";
+        public string MCofflineDescription { get; set; } = "";
 
         public string CopyrightInfo { get; set; } =
-            "\"Minecraft\" является торговой маркой Mojang Synergies AB. Все права защищены.\nMojang Synergies AB является дочерней студией Microsoft Studios.";
+            "\"Minecraft\" is a trademark of Mojang Synergies AB. All rights reserved.\nMojang Synergies AB is a subsidiary of Microsoft Studios.";
 
         #endregion
 
         #region Settings Tab
 
-        public string MainSettingsTitle { get; set; } = "Основные";
-        public string CheckUpdatesCheckBox { get; set; } = "Проверять наличие обновлений лаунчера";
-        public string SkipAssetsDownload { get; set; } = "Пропускать загрузку ресурсов";
-        public string EnableMinecraftLoggingText { get; set; } = "Выводить лог игры в консоль";
-        public string LoggerSettingsTitle { get; set; } = "Логирование";
+        public string MainSettingsTitle { get; set; } = "Main";
+        public string CheckUpdatesCheckBox { get; set; } = "Check for launcher updates";
+        public string SkipAssetsDownload { get; set; } = "Skip assets download";
+        public string EnableMinecraftLoggingText { get; set; } = "Display logs from OUTPUT thread";
+        public string LoggerSettingsTitle { get; set; } = "Logging";
 
         public string CloseGameOutputText { get; set; } =
-            "Закрывать вкладку, если завершение было вызвано\nпринудительно или прошло без ошибок";
+            "Close tabs automaticly if there was no errors";
 
         #endregion
 
-        public string Launch { get; set; } = "Запустить";
-        public string Delete { get; set; } = "Удалить";
-        public string ReadyToLaunch { get; set; } = "Готов к запуску сборки {0}";
-        public string ReadyToDownload { get; set; } = "Готов к загрузке сборки {0}";
-        public string EditingProfileTitle { get; set; } = "Редактирование профиля";
-        public string ProfileAlreadyExistsErrorText { get; set; } = "Данный профиль уже существует в списке!";
-        public string ProfileDeleteConfirmationText { get; set; } = "Вы действительно хотите удалить профиль '{0}'?";
-        public string AddingProfileTitle { get; set; } = "Добавление профиля";
-        public string CheckingVersionAvailability { get; set; } = "Выполняется проверка доступности сборки '{0}'";
-        public string CheckingLibraries { get; set; } = "Выполняется проверка библиотек";
-        public string GameOutput { get; set; } = "ВЫВОД ИГРЫ";
-        public string KillProcess { get; set; } = "Убить процесс";
-        public string Independent { get; set; } = "Самостоятельная";
-        public string InvalidSessionMessage { get; set; } = "Токен сеанса устарел. Пожалуйста, выполните вход в свой аккаунт ещё раз.";
-        public string SomeFilesMissingMessage { get; set; } = "Похоже, вы впервые используете этот лаунчер.\nК сожалению, некоторые необходимые файлы отсутствуют и они не могут быть загружены без подключения к Интернету.\nПожалуйста, проверьте свои настройки Сети и перезапустите лаунчер.";
+        public string Launch { get; set; } = "Launch";
+        public string Delete { get; set; } = "Delete";
+        public string ReadyToLaunch { get; set; } = "Ready to launch build {0}";
+        public string ReadyToDownload { get; set; } = "Ready to download build {0}";
+        public string EditingProfileTitle { get; set; } = "Editing profile";
+        public string ProfileAlreadyExistsErrorText { get; set; } = "Profile with provided name already exists!";
+        public string ProfileDeleteConfirmationText { get; set; } = "Are you sure want to delete profile '{0}'?";
+        public string AddingProfileTitle { get; set; } = "Adding profile";
+        public string CheckingVersionAvailability { get; set; } = "Checking availability of build '{0}'";
+        public string CheckingLibraries { get; set; } = "Checking libraries";
+        public string GameOutput { get; set; } = "Game output";
+        public string KillProcess { get; set; } = "Terminate";
+        public string Independent { get; set; } = "Nothing";
+        public string InvalidSessionMessage { get; set; } = "Session token is not valid. Please, re-add your account.";
+        public string SomeFilesMissingMessage { get; set; } = "Looks like this is your first time using this launcher.\nUnfortunately, some required files are missing and we are unable to download them without the Internet connection.\nPlease, check for your Internet configuration and restart the launcher.";
 
         #endregion
 
@@ -100,72 +100,71 @@
 
         #region GroupBoxes
 
-        public string MainProfileSettingsGroup { get; set; } = "Главные настройки профиля";
-        public string VersionSettingsGroup { get; set; } = "Выбор версии";
-        public string JavaSettingsGroup { get; set; } = "Настройки Java";
+        public string MainProfileSettingsGroup { get; set; } = "Main Profile Configuration";
+        public string VersionSettingsGroup { get; set; } = "Version Selection";
+        public string JavaSettingsGroup { get; set; } = "Java Configuration";
 
         #endregion
 
         #region Main Settings
 
-        public string ProfileName { get; set; } = "Название профиля:";
-        public string WorkingDirectory { get; set; } = "Рабочая директория:";
-        public string WindowResolution { get; set; } = "Разрешение окна:";
-        public string ActionAfterLaunch { get; set; } = "Действие после запуска:";
-        public string KeepLauncherOpen { get; set; } = "Оставить лаунчер открытым";
-        public string HideLauncher { get; set; } = "Скрыть лаунчер";
-        public string CloseLauncher { get; set; } = "Закрыть лаунчер";
-        public string Autoconnect { get; set; } = "Автоподключение:";
+        public string ProfileName { get; set; } = "Profile name:";
+        public string WorkingDirectory { get; set; } = "Working directory:";
+        public string WindowResolution { get; set; } = "Working directory:";
+        public string ActionAfterLaunch { get; set; } = "Action after launch:";
+        public string KeepLauncherOpen { get; set; } = "Keep the Launcher Open";
+        public string HideLauncher { get; set; } = "Hide Launcher";
+        public string CloseLauncher { get; set; } = "Close Launcher";
+        public string Autoconnect { get; set; } = "Autoconnect to:";
 
         #endregion
 
         #region Version Selection
 
-        public string Snapshots { get; set; } = "Отображать экспериментальные сборки (\"snapshots\")";
-        public string Beta { get; set; } = "Отображать \"Beta\" сборки (2011-2012 гг.)";
-        public string Alpha { get; set; } = "Отображать \"Alpha\" сборки (до 2011 г.)";
-        public string Other { get; set; } = "Отображать сторонние сборки (Forge, LiteLoader, etc.)";
-        public string UseLatestVersion { get; set; } = "Использовать последнюю сборку '{0}'";
+        public string Snapshots { get; set; } = "Display experemental builds (\"snapshots\")";
+        public string Beta { get; set; } = "Display \"Beta\" builds (2011-2012)";
+        public string Alpha { get; set; } = "Display \"Alpha\" builds (until 2011)";
+        public string Other { get; set; } = "Display third-party builds (Forge, LiteLoader, etc.)";
+        public string UseLatestVersion { get; set; } = "Use Latest Build '{0}'";
 
         #endregion
 
         #region Java Options
 
-        public string JavaExecutable { get; set; } = "Исполняемый файл:";
-        public string JavaFlags { get; set; } = "Флаги JVM:";
+        public string JavaExecutable { get; set; } = "JMV Executable:";
+        public string JavaFlags { get; set; } = "JVM Flags:";
 
         #endregion
 
-        public string OpenDirectory { get; set; } = "Открыть раб. директорию";
+        public string OpenDirectory { get; set; } = "Open working dir";
 
-        public string JavaDetectionFailed { get; set; } =
-            "Не удалось определить путь до Java! Пожалуйста, укажите путь к исполняемому файлу вручную.";
+        public string JavaDetectionFailed { get; set; } = "No Java installation was detected! Please, provide a path to Java executable manually.";
 
         #endregion
 
         #region UsersForm
 
-        public string AddNewUserBox { get; set; } = "Добавление нового пользователя";
-        public string Nickname { get; set; } = "Ник/Логин:";
-        public string LicenseQuestion { get; set; } = "У вас лицензионный аккаунт?";
-        public string Password { get; set; } = "Пароль:";
-        public string AddNewUserButton { get; set; } = "Добавить нового пользователя";
-        public string RemoveSelectedUser { get; set; } = "Удалить выбранного пользователя";
-        public string IncorrectLoginOrPassword { get; set; } = "Логин и/или пароль введены неверно!";
-        public string PleaseWait { get; set; } = "Пожалуйста, подождите";
+        public string AddNewUserBox { get; set; } = "Add new user";
+        public string Nickname { get; set; } = "Username:";
+        public string LicenseQuestion { get; set; } = "License account?";
+        public string Password { get; set; } = "Password:";
+        public string AddNewUserButton { get; set; } = "Add new user";
+        public string RemoveSelectedUser { get; set; } = "Remove selected user";
+        public string IncorrectLoginOrPassword { get; set; } = "Login and/or password is incorrect!";
+        public string PleaseWait { get; set; } = "Please, wait";
 
         #endregion
 
         #region UpdateForm
 
-        public string GoToGitHub { get; set; } = "Перейти на GitHub";
-        public string SupportDeveloper { get; set; } = "Поддержать разработчика";
+        public string GoToGitHub { get; set; } = "Go to GitHub";
+        public string SupportDeveloper { get; set; } = "Support the developer";
 
         #endregion
 
-        public string Error { get; set; } = "Ошибка";
-        public string Cancel { get; set; } = "Отмена";
-        public string Close { get; set; } = "Закрыть";
-        public string Save { get; set; } = "Сохранить";
+        public string Error { get; set; } = "Error";
+        public string Cancel { get; set; } = "Cancel";
+        public string Close { get; set; } = "Close";
+        public string Save { get; set; } = "Save";
     }
 }
