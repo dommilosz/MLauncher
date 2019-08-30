@@ -10,6 +10,13 @@ This is open source unofficial Minecraft launcher, based on dotMCLauncher and Fr
 
 Requires **.NET Framework 4.7.2**
 
+## Features
+ * Download, Install and Run Minecraft!
+ * Modern UI - Telerik Visual Studio 2012 Dark Theme
+ * Auto Update - Install Updates with one click!
+ * Mods [WIP] - Currently only mods searching on CurseForge
+
+
 ## Third-party assemblies used in this software
 
 * **FreeLauncher**                     - <https://github.com/dedepete/FreeLauncher>
