@@ -84,7 +84,6 @@ namespace MLauncher
                     }
                     catch { }
                 }
-                else { }
             }
             try
             {
@@ -97,26 +96,6 @@ namespace MLauncher
                 Localization = LocalizationsList["en_UK"];
             }
             var langsDirectory = new DirectoryInfo(Path.Combine(Application.StartupPath + @"\MLauncher-langs\"));
-            /*if (!langsDirectory.Exists)
-            {
-                return;
-            }
-            foreach (var local in langsDirectory
-                .GetFiles("*.json", SearchOption.AllDirectories)
-                .Where(file => file.Name.Contains("lang"))
-                .Select(file => JObject.Parse(File.ReadAllText(file.FullName)))
-                .Select(jo => JsonConvert.DeserializeObject<ApplicationLocalization>(jo.ToString())))
-            {
-                if (LocalizationsList.ContainsKey(local.LanguageTag))
-                {
-                    continue;
-                }
-                LocalizationsList.Add(local.LanguageTag, local);
-                if (local.LanguageTag == ApplicationConfiguration.SelectedLanguage)
-                {
-                    Localization = local;
-                }
-            }*/
         }
     }
 }

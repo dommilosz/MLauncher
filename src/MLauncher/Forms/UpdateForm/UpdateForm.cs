@@ -20,7 +20,8 @@ namespace MLauncher.Forms
             LoadLocalization();
             autocheckCheckBox.Checked = _configuration.ApplicationConfiguration.CheckLauncherUpdates;
             Text = $"Found update: {release.Name}";
-            changelogBox.Text = $"{release.Description}";
+            changelogBox.Text = $"Installed Version : {Application.ProductVersion}" + Environment.NewLine;
+            changelogBox.Text += $"{release.Description}";
             form = f;
         }
 

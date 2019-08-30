@@ -104,8 +104,6 @@ namespace MLauncher.Forms
 
         public LauncherForm(Configuration configuration)
         {
-            if (DesignMode) return;
-
             _configuration = configuration;
             _nicknameDictionary = new Dictionary<string, Tuple<string, DateTime>>();
             InitializeComponent();
@@ -1338,7 +1336,10 @@ Please, check for your Internet configuration and restart the launcher.
                     SelectedVersion.Text = string.Format(state, _selectedProfile.SelectedVersion ??
                         GetLatestVersion(_selectedProfile));
                 }
-                catch { }
+                catch (Exception ex)
+                {
+                    AppendException(ex.ToString());
+                }
             }
         }
 

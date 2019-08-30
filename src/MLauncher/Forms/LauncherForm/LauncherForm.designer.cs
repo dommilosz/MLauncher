@@ -216,7 +216,7 @@ namespace MLauncher.Forms
             this.mainPageView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPageView.Location = new System.Drawing.Point(0, 0);
             this.mainPageView.Name = "mainPageView";
-            this.mainPageView.SelectedPage = this.AboutPage;
+            this.mainPageView.SelectedPage = this.EditVersions;
             this.mainPageView.Size = new System.Drawing.Size(858, 363);
             this.mainPageView.TabIndex = 2;
             this.mainPageView.ThemeName = "VisualStudio2012Dark";
@@ -902,7 +902,7 @@ namespace MLauncher.Forms
             this.GratitudesLabel.ForeColor = System.Drawing.Color.Transparent;
             this.GratitudesLabel.Location = new System.Drawing.Point(3, 81);
             this.GratitudesLabel.Name = "GratitudesLabel";
-            this.GratitudesLabel.Size = new System.Drawing.Size(202, 41);
+            this.GratitudesLabel.Size = new System.Drawing.Size(136, 41);
             this.GratitudesLabel.TabIndex = 7;
             this.GratitudesLabel.Text = "Thanks";
             this.GratitudesLabel.ThemeName = "VisualStudio2012Dark";
