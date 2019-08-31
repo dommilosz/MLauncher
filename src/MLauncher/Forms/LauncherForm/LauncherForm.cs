@@ -107,7 +107,7 @@ namespace MLauncher.Forms
             _configuration = configuration;
             _nicknameDictionary = new Dictionary<string, Tuple<string, DateTime>>();
             InitializeComponent();
-
+            if (DesignMode) return;
             _cfg = _configuration.ApplicationConfiguration;
             CheckUpdatesCheckBox.Checked = _cfg.CheckLauncherUpdates;
             DownloadAssetsBox.Checked = _cfg.SkipAssetsDownload;

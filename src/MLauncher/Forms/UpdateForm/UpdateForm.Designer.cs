@@ -28,16 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UpdateForm));
             this.changelogBox = new System.Windows.Forms.RichTextBox();
             this.goButton = new Telerik.WinControls.UI.RadButton();
             this.cancelButton = new Telerik.WinControls.UI.RadButton();
             this.autocheckCheckBox = new Telerik.WinControls.UI.RadCheckBox();
             this.radButton1 = new Telerik.WinControls.UI.RadButton();
+            this.StatusBar = new Telerik.WinControls.UI.RadProgressBar();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.goButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cancelButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.autocheckCheckBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StatusBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,11 +97,28 @@
             this.radButton1.ThemeName = "VisualStudio2012Dark";
             this.radButton1.Click += new System.EventHandler(this.RadButton1_Click);
             // 
+            // StatusBar
+            // 
+            this.StatusBar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.StatusBar.Location = new System.Drawing.Point(0, 203);
+            this.StatusBar.Name = "StatusBar";
+            this.StatusBar.Size = new System.Drawing.Size(636, 24);
+            this.StatusBar.TabIndex = 8;
+            this.StatusBar.Text = "Downloading";
+            this.StatusBar.ThemeName = "VisualStudio2012Dark";
+            this.StatusBar.Visible = false;
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 250;
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
+            // 
             // UpdateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(636, 258);
+            this.Controls.Add(this.StatusBar);
             this.Controls.Add(this.radButton1);
             this.Controls.Add(this.autocheckCheckBox);
             this.Controls.Add(this.cancelButton);
@@ -119,6 +140,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.cancelButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.autocheckCheckBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StatusBar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -132,5 +154,7 @@
         private Telerik.WinControls.UI.RadButton cancelButton;
         public Telerik.WinControls.UI.RadCheckBox autocheckCheckBox;
         private Telerik.WinControls.UI.RadButton radButton1;
+        private Telerik.WinControls.UI.RadProgressBar StatusBar;
+        private System.Windows.Forms.Timer timer1;
     }
 }
