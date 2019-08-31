@@ -14,9 +14,11 @@ namespace MLauncher.Forms
         LauncherForm form;
         Uri update_url;
         string newpatch;
+        Uri batchURL;
         bytesconvert update_size;
         int _speed_last_perc = 0;
         bytesconvert speed;
+        int _speed_ticks = 0;
 
         public UpdateForm(GitHubRelease release, Configuration configuration, LauncherForm f)
         {
@@ -25,10 +27,10 @@ namespace MLauncher.Forms
             _configuration = configuration;
             InitializeComponent();
             LoadLocalization();
-
             update_url = new Uri(@"https://github.com/dommilosz/MLauncher/releases/download/" + rls.Tag + "/MLauncher.exe");
             newpatch = Application.ExecutablePath.Replace(".exe", "_" + rls.Tag + ".exe");
             update_size = GetUpdateSize();
+            batchURL = new Uri(@"https://github.com/dommilosz/MLauncher/releases/download/v0.2.0/Update.bat");
             autocheckCheckBox.Checked = _configuration.ApplicationConfiguration.CheckLauncherUpdates;
             Text = $"Found update: {release.Name}";
 
@@ -75,6 +77,33 @@ namespace MLauncher.Forms
 
         public void DownloadUpdates()
         {
+            void AppendLOG(string str)
+            {
+                if (changelogBox.InvokeRequired)
+                    changelogBox.Invoke(new Action<string>(AppendLOG), str);
+                else
+                    changelogBox.AppendText(str);
+            }
+            void SetProgress(int value)
+            {
+                if (StatusBar.InvokeRequired)
+                    StatusBar.Invoke(new Action<int>(SetProgress), value);
+                else
+                    StatusBar.Value1 = value;
+            }
+            void SetStatusText(string str)
+            {
+                if (StatusBar.InvokeRequired)
+                    StatusBar.Invoke(new Action<string>(SetStatusText), str);
+                else
+                    StatusBar.Text = str;
+            }
+            void AppStatusText(string str)
+            {
+                str = StatusBar.Text + str;
+                SetStatusText(str);
+            }
+
             string exec = Application.ExecutablePath.Replace(Application.StartupPath, "");
             string execnew = newpatch.Replace(Application.StartupPath, "");
             exec = exec.TrimStart(@"\".ToCharArray()[0]);
@@ -82,21 +111,27 @@ namespace MLauncher.Forms
             WebClient w = new WebClient();
             w.DownloadProgressChanged += (s, e) =>
             {
-                try
-                {
-                    StatusBar.Value1 = e.ProgressPercentage;
-                }
-                catch { }
-                StatusBar.Text = $"Downloading    {Math.Round((Convert.ToDouble(e.ProgressPercentage) / 100) * update_size.MB, 2)}/{update_size.MB} MB       ";
-                if (speed.Kb <= 1000) StatusBar.Text += $"{speed.Kb} Kb/s";
-                if (speed.Kb > 1000) StatusBar.Text += $"{speed.Mb} Mb/s";
+                string form_speed = "";
+                if (speed.Kb >= 1024) form_speed = ($"{speed.Mb} Mb/s"); else form_speed = ($"{speed.Kb} Kb/s");
+                SetProgress(e.ProgressPercentage);
+                SetStatusText($"Downloading    {Math.Round((Convert.ToDouble(e.ProgressPercentage) / 100) * update_size.MB, 2)}/{update_size.MB} MB       {form_speed}");
             };
             w.DownloadFileCompleted += (s, e) =>
             {
-                w.DownloadFile(@"https://github.com/dommilosz/MLauncher/releases/download/v0.2.0/Update.bat", Application.StartupPath + "Update.bat");
-                Process.Start(Application.StartupPath + "Update.bat", "\"" + execnew + "\" \"" + exec + "\"");
+                int download_time = (_speed_ticks * 4);
+                bytesconvert speed = new bytesconvert((update_size.b) / download_time);
+                string speed_form = "";
+                if (speed.Kb >= 1024) speed_form = $"{speed.Mb} Mb/s"; else speed_form = $"{speed.Kb} Kb/s";
+                AppendLOG(Environment.NewLine + $"Average Download Speed : {speed_form}");
+                string args = "\"" + execnew + "\" \"" + exec + "\"";
+                AppendLOG(Environment.NewLine + $"Downloading Update Installer From : {batchURL}");
+                w.DownloadFile(batchURL, Application.StartupPath + "Update.bat");
+                AppendLOG(Environment.NewLine + $"Starting Installer : Update.bat WITH ARGS : {args}");
+                Thread.Sleep(2000);
+                Process.Start(Application.StartupPath + "Update.bat", args);
                 Application.Exit();
             };
+            AppendLOG(Environment.NewLine + $"Downloading Update From : {update_url}");
             w.DownloadFileAsync(update_url, newpatch);
         }
 
@@ -123,6 +158,7 @@ namespace MLauncher.Forms
 
         private void Timer1_Tick(object sender, EventArgs e)
         {
+            _speed_ticks++;
             int speed_prc = StatusBar.Value1 - _speed_last_perc;
             _speed_last_perc = StatusBar.Value1;
             long bytespertick = Convert.ToInt64(Math.Round((Convert.ToDouble(speed_prc) / 100) * update_size.B, 0));
