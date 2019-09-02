@@ -129,6 +129,7 @@ namespace MLauncher.Forms
             AppendLog($"{new string(' ', 2)}Java path: '{Java.JavaInstallationPath}' ({Java.JavaBitInstallation}-bit)");
             AppendLog(new string('=', 12));
             LangDropDownList.Items.Clear();
+            InitThemes();
             if (_configuration.LocalizationsList.Count != 0)
             {
                 foreach (KeyValuePair<string, ApplicationLocalization> keyvalue in _configuration.LocalizationsList)
@@ -190,6 +191,53 @@ Please, check for your Internet configuration and restart the launcher.
             Focus();
         }
 
+
+        void InitThemes()
+        {
+            ThemeResolutionService.EnsureThemeRegistered("Aqua");
+            ThemeResolutionService.EnsureThemeRegistered("Breeze");
+            ThemeResolutionService.EnsureThemeRegistered("Crystal");
+            ThemeResolutionService.EnsureThemeRegistered("CrystalDark");
+            ThemeResolutionService.EnsureThemeRegistered("Desert");
+            ThemeResolutionService.EnsureThemeRegistered("Fluent");
+            ThemeResolutionService.EnsureThemeRegistered("VisualStudio2012Light");
+            ThemeResolutionService.EnsureThemeRegistered("FluentDark");
+            ThemeResolutionService.EnsureThemeRegistered("HighContrastBlack");
+            ThemeResolutionService.EnsureThemeRegistered("Office2007Black");
+            ThemeResolutionService.EnsureThemeRegistered("Office2007Silver");
+            ThemeResolutionService.EnsureThemeRegistered("Office2010Black");
+            ThemeResolutionService.EnsureThemeRegistered("Office2010Blue");
+            ThemeResolutionService.EnsureThemeRegistered("Office2010Silver");
+            ThemeResolutionService.EnsureThemeRegistered("Office2013Dark");
+            ThemeResolutionService.EnsureThemeRegistered("Office2013Light");
+            ThemeResolutionService.EnsureThemeRegistered("TelerikMetro");
+            ThemeResolutionService.EnsureThemeRegistered("TelerikMetroBlue");
+            ThemeResolutionService.EnsureThemeRegistered("VisualStudio2012Light");
+            ThemeResolutionService.EnsureThemeRegistered("Windows7");
+            ThemeResolutionService.EnsureThemeRegistered("Windows8");
+            var tmp = ThemeResolutionService.GetAvailableThemes();
+            radDropDownList2.Items.Add("VisualStudio2012Dark");
+            radDropDownList2.Items.Add("VisualStudio2012Light");
+            List<string> items = new List<string>();
+            foreach (var item in tmp)
+            {
+                string txt = ((Theme)item).Name;
+                if (!items.Contains(txt)&&!radDropDownList2.Items.Contains(txt))
+                    items.Add(txt);
+            }
+            items.Sort();
+            radDropDownList2.Items.AddRange(items);
+            for (int i = 0; i < radDropDownList2.Items.Count; i++)
+            {
+                if (radDropDownList2.Items[i].Text == _cfg.SelectedTheme)
+                {
+                    radDropDownList2.SelectedItem = radDropDownList2.Items[i];
+                    return;
+                }
+            }
+            radDropDownList2.SelectedItem = radDropDownList2.Items[0];
+
+        }
         private void LauncherForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             _cfg.CheckLauncherUpdates = CheckUpdatesCheckBox.Checked;
@@ -725,7 +773,7 @@ Please, check for your Internet configuration and restart the launcher.
 
         private void langWikiLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start(@"https://github.com/dedepete/MLauncher/wiki/");
+            Process.Start("https://github.com/dommilosz/MLauncher");
         }
 
         private void LangDropDownList_SelectedIndexChanged(object sender, PositionChangedEventArgs e)
@@ -1610,6 +1658,17 @@ Please, check for your Internet configuration and restart the launcher.
         private void RadDropDownList2_SelectedIndexChanged(object sender, PositionChangedEventArgs e)
         {
             Telerik.WinControls.Themes.VisualStudio2012DarkTheme theme = new Telerik.WinControls.Themes.VisualStudio2012DarkTheme();
+        }
+
+
+        private void RadDropDownList2_SelectedIndexChanged_1(object sender, PositionChangedEventArgs e)
+        {
+            try
+            {
+                ThemeResolutionService.ApplicationThemeName = radDropDownList2.Text;
+                _cfg.SelectedTheme = radDropDownList2.Text;
+            }
+            catch { }
         }
     }
 

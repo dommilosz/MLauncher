@@ -75,7 +75,7 @@ namespace MLauncher
 
             for (int i = 0; i < items.Count; i++)
             {
-                if (items[i].Contains("MLauncher.Translations")&& items[i].Contains(".json"))
+                if (items[i].Contains("MLauncher.Translations") && items[i].Contains(".json"))
                 {
                     string s2 = new StreamReader(assembly.GetManifestResourceStream(items[i])).ReadToEnd();
                     try

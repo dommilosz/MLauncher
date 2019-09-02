@@ -7,5 +7,6 @@
         public bool EnableGameLogging { get; set; }
         public bool CloseTabAfterSuccessfulExitCode { get; set; } = true;
         public string SelectedLanguage { get; set; } = "ru_RU";
+        public string SelectedTheme { get; set; } = "VisualStudio2012Dark";
     }
 }
