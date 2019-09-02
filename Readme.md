@@ -12,8 +12,9 @@ Requires **.NET Framework 4.7.2**
 
 ## Features
  * Download, Install and Run Minecraft!
- * Modern UI - Telerik Visual Studio 2012 Dark Theme
+ * Modern UI - You Can Select From 21 Themes (Default : Telerik VisualStudio2012Dark)
  * Auto Update - Install Updates with one click!
+ * Skin - Your Skin is visible In Home Page!
  * Mods [WIP] - Currently only mods searching on CurseForge
 
 
