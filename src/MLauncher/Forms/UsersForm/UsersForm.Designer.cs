@@ -134,7 +134,7 @@
             // 
             this.PasswordLabel.Location = new System.Drawing.Point(5, 75);
             this.PasswordLabel.Name = "PasswordLabel";
-            this.PasswordLabel.Size = new System.Drawing.Size(47, 18);
+            this.PasswordLabel.Size = new System.Drawing.Size(56, 18);
             this.PasswordLabel.TabIndex = 4;
             this.PasswordLabel.Text = "Password:";
             this.PasswordLabel.ThemeName = "VisualStudio2012Dark";
@@ -143,7 +143,7 @@
             // 
             this.LicenseQuestionLabel.Location = new System.Drawing.Point(5, 51);
             this.LicenseQuestionLabel.Name = "LicenseQuestionLabel";
-            this.LicenseQuestionLabel.Size = new System.Drawing.Size(161, 18);
+            this.LicenseQuestionLabel.Size = new System.Drawing.Size(90, 18);
             this.LicenseQuestionLabel.TabIndex = 3;
             this.LicenseQuestionLabel.Text = "License account?";
             this.LicenseQuestionLabel.ThemeName = "VisualStudio2012Dark";
@@ -161,7 +161,7 @@
             // 
             this.NicknameLabel.Location = new System.Drawing.Point(5, 21);
             this.NicknameLabel.Name = "NicknameLabel";
-            this.NicknameLabel.Size = new System.Drawing.Size(65, 18);
+            this.NicknameLabel.Size = new System.Drawing.Size(59, 18);
             this.NicknameLabel.TabIndex = 1;
             this.NicknameLabel.Text = "Username:";
             this.NicknameLabel.ThemeName = "VisualStudio2012Dark";

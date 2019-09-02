@@ -220,6 +220,7 @@ Please, check for your Internet configuration and restart the launcher.
             _userManager.SelectedUsername = NicknameDropDownList.SelectedItem.Text;
             _selectedUser = _userManager.Accounts[NicknameDropDownList.SelectedItem.Text];
             SaveUsers();
+            GetSkin(NicknameDropDownList.Text);
         }
 
         private void EditProfile_Click(object sender, EventArgs e)
@@ -1509,7 +1510,7 @@ Please, check for your Internet configuration and restart the launcher.
                     return;
                 }
                 AppendLog("Found update.");
-                UpdateForm updateForm = new UpdateForm(latest, _configuration,this);
+                UpdateForm updateForm = new UpdateForm(latest, _configuration, this);
                 updateForm.ShowDialog();
                 CheckUpdatesCheckBox.Checked = updateForm.autocheckCheckBox.Checked;
             }
@@ -1586,6 +1587,29 @@ Please, check for your Internet configuration and restart the launcher.
             }
 
             radListView2.SelectedIndex = 0;
+        }
+
+        private void NicknameDropDownList_TextChanged(object sender, EventArgs e)
+        {
+            //WebClient w = new WebClient();
+            //w.DownloadString($"https://minotar.net/body/{NicknameDropDownList.Text}.png");
+
+        }
+
+        public void GetSkin(string name)
+        {
+            radLabel2.Text = name;
+            try
+            {
+                pictureBox1.Load($"https://minotar.net/body/{name}.png");
+            }
+            catch { }
+
+        }
+
+        private void RadDropDownList2_SelectedIndexChanged(object sender, PositionChangedEventArgs e)
+        {
+            Telerik.WinControls.Themes.VisualStudio2012DarkTheme theme = new Telerik.WinControls.Themes.VisualStudio2012DarkTheme();
         }
     }
 

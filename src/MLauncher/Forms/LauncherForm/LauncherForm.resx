@@ -120,15 +120,156 @@
   <metadata name="vs12theme.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>127, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        X7niPnP3KPyioxYVZqJ9G7Sr6B0T7StX3GfuHoVfdNSiwky0b4N2Fb1jon3livvM3aPwi45aVJiJ9m3Q
+        rqJ3TLSvXHGfuXsUftFRiwoz0b4N2lX0jon2lSvuM3ePwi86alFhJtq3QbuK3jHRvnLFfebuUfhFRy0q
+        zET7NmhX0Tsm2leuuM/cPQq/6KhFhZlo3wbtKnrHRPvKFfeZu0fhFx21qDAT7dugXUXvmGhfueI+c/co
+        /KKjFhVmon0btKvoHRPtK1fcZ+4ehV901KLCTLRvg3YVvWOifeWK+8zd8wf/4ePvn6VDbfngzY9voV1b
+        lFG54j5z9yj8oqNuURk3aNcWZVSuuM/cPQq/6KhbVMYN2rVFGZUr7jN3j8IvOuoWlXGDdm1RRuWK+8zd
+        o/CLjrpFZdygXVuUUbniPnP3KPyio25RGTdo1xZlVK64z9w9Cr/oqFtUxg3atUUZlSvuM3ePwi866haV
+        cYN2bVFG5Yr7zN2j8IuOukVl3KBdW5RRueI+c/co/KKjblEZN2jXFmVUrrjP3D0Kv+ioW1TGDdq1RRmV
+        K+4zd89vf/vb75/193//90/7x3/8x7fyy1/+8hbaVfSOiTIqV9xn7h6FX3TUosJMVMYN2lX0jokyKlfc
+        Z+4ehV901KLCTFTGDdpV9I6JMipX3GfuHoVfdNSiwkxUxg3aVfSOiTIqV9xn7h6FX3TUosJMVMYN2lX0
+        jokyKlfcZ+4ehV901KLCTFTGDdpV9I6JMipX3GfuHoVfdNSiwkxUxg3aVfSOiTIqV9xn7h6FX3TUosJM
+        VMYN2lX0jokyKlfcZ+4ehV901KLCTFTGDdpV9I6JMipX3GfuHoVfdNSiwkxUxg3aVfSOiTIqV9xn7h6F
+        X3TUosJMVMYN2lX0jokyKlfcZ+4ehV901KLCTFTGDdpV9I6JMipX3GfuHpWg/OY3v3naN99881a+/vrr
+        W2hX0TsmyqhccZ+5exR+0VGLCjNRGTdoV9E7JsqoXHGfuXsUftFRiwozURk3aFfROybKqFxxn7l7FH7R
+        UYsKM1EZN2hX0TsmyqhccZ+5exR+0VGLCjNRGTdoV9E7JsqoXHGfuXsUftFRiwozURk3aFfROybKqFxx
+        n7l7FH7RUYsKM1EZN2hX0TsmyqhccZ+5exR+0VGLCjNRGTdoV9E7JsqoXHGfuXsUftFRiwozURk3aFfR
+        OybKqFxxn7l7FH7RUYsKM1EZN2hX0TsmyqhccZ+5exR+0VGLCjNRGTdoV9E7JsqoXHGfuXv++G/+9Ptn
+        ffXVV0/74osv3sqbv/75LbSr6B0TZVSuuM/cPQq/6KhFhZmojBu0q+gdE2VUrrjP3D0Kv+ioRYWZqIwb
+        tKvoHRNlVK64z9w9Cr/oqEWFmaiMG7Sr6B0TZVSuuM/cPQq/6KhFhZmojBu0q+gdE2VUrrjP3D0Kv+io
+        RYWZqIwbtKvoHRNlVK64z9w9Cr/oqEWFmaiMG7Sr6B0TZVSuuM/cPQq/6KhFhZmojBu0q+gdE2VUrrjP
+        3D0Kv+ioRYWZqIwbtKvoHRNlVK64z9w9Cr/oqEWFmaiMG7Sr6B0TZVSuuM/cPQq/6KhFhZmojBu0q+gd
+        E2VUrrjP3D0f/9kX3z9L/yzDlg9/8eNbaNcWZVSuuM/cPQq/6KhbVMYN2rVFGZUr7jN3j8IvOuoWlXGD
+        dm1RRuWK+8zdo/CLjrpFZdygXVuUUbniPnP3KPyio25RGTdo1xZlVK64z9w9Cr/oqFtUxg3atUUZlSvu
+        M3ePwi866haVcYN2bVFG5Yr7zN2j8IuOukVl3KBdW5RRueI+c/co/KKjblEZN2jXFmVUrrjP3D0Kv+io
+        W1TGDdq1RRmVK+4zd4/CLzrqFpVxg3ZtUUblivvM3aNDHfuuuM/cPQr/2HfFfebuUfjHvivuM3ePwj/2
+        XXGfuXsU/rHvivvM3aPwj31X3GfuHoV/7LviPnP3KPxj3xX3mbtH4R/7rrjP3D0K/9h3xX3m7lH4x74r
+        7jN3j8I/9l1xn7l7FH7RX/4pr15/8Fa0b4N2Fb1jon3livvM3aPwi45aVJiJ9m3QrqJ3TLSvXHGfuXsU
+        ftFRiwoz0b4N2lX0jon2lSvuM3ePwi86alFhJtq3QbuK3jHRvnLFfebuUfhFRy0qzET7NmhX0Tsm2leu
+        uM/cPQq/6KhFhZlo3wbtKnrHRPvKFfeZu0fhFx21qDAT7dugXUXvmGhfueI+c/co/KKjFhVmon0btKvo
+        HRPtK1fcZ+4ehV901KLCTLRvg3YVvWOifeWK+8zdo/CLjlpUmIn2bdCuondMtK9ccZ+5exR+0VGLCjPR
+        vg3aVfSOifaVK+7fo3n16v8D57VP9+zqSd8AAAAASUVORK5CYII=
+</value>
+  </data>
   <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="resource.Text" xml:space="preserve">
-    <value>&lt;html&gt;&lt;span lang="RU"&gt;&lt;p&gt;The MIT License (MIT)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018 &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;br /&gt;Copyright (c) 2014-2015 Space Earth Studio, &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&lt;/p&gt;&lt;p&gt;of this software and associated documentation files (the "Software"), to deal&lt;/p&gt;&lt;p&gt;in the Software without restriction, including without limitation the rights&lt;/p&gt;&lt;p&gt;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&lt;/p&gt;&lt;p&gt;copies of the Software, and to permit persons to whom the Software is&lt;/p&gt;&lt;p&gt;furnished to do so, subject to the following conditions:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all&lt;/p&gt;&lt;p&gt;copies or substantial portions of the Software.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&lt;/p&gt;&lt;p&gt;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&lt;/p&gt;&lt;p&gt;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&lt;/p&gt;&lt;p&gt;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&lt;/p&gt;&lt;p&gt;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&lt;/p&gt;&lt;p&gt;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&lt;/p&gt;&lt;p&gt;SOFTWARE.&lt;/p&gt;&lt;/span&gt;&lt;/html&gt;</value>
-  </data>
-  <data name="resource.Text1" xml:space="preserve">
-    <value>&lt;html&gt;&lt;span lang="RU"&gt;&lt;p&gt;The MIT License (MIT)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018 &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;br /&gt;Copyright (c) 2015 Space Earth Studio, &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&lt;/p&gt;&lt;p&gt;of this software and associated documentation files (the "Software"), to deal&lt;/p&gt;&lt;p&gt;in the Software without restriction, including without limitation the rights&lt;/p&gt;&lt;p&gt;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&lt;/p&gt;&lt;p&gt;copies of the Software, and to permit persons to whom the Software is&lt;/p&gt;&lt;p&gt;furnished to do so, subject to the following conditions:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all&lt;/p&gt;&lt;p&gt;copies or substantial portions of the Software.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&lt;/p&gt;&lt;p&gt;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&lt;/p&gt;&lt;p&gt;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&lt;/p&gt;&lt;p&gt;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&lt;/p&gt;&lt;p&gt;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&lt;/p&gt;&lt;p&gt;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&lt;/p&gt;&lt;p&gt;SOFTWARE.&lt;/p&gt;&lt;/span&gt;&lt;/html&gt;</value>
-  </data>
   <data name="MLauncherLicenseText.Text" xml:space="preserve">
     <value>&lt;html&gt;&lt;span lang="RU"&gt;&lt;p&gt;The MIT License (MIT)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018 &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;br /&gt;Copyright (c) 2014-2015 Space Earth Studio, &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&lt;/p&gt;&lt;p&gt;of this software and associated documentation files (the "Software"), to deal&lt;/p&gt;&lt;p&gt;in the Software without restriction, including without limitation the rights&lt;/p&gt;&lt;p&gt;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&lt;/p&gt;&lt;p&gt;copies of the Software, and to permit persons to whom the Software is&lt;/p&gt;&lt;p&gt;furnished to do so, subject to the following conditions:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all&lt;/p&gt;&lt;p&gt;copies or substantial portions of the Software.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&lt;/p&gt;&lt;p&gt;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&lt;/p&gt;&lt;p&gt;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&lt;/p&gt;&lt;p&gt;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&lt;/p&gt;&lt;p&gt;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&lt;/p&gt;&lt;p&gt;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&lt;/p&gt;&lt;p&gt;SOFTWARE.&lt;/p&gt;&lt;/span&gt;&lt;/html&gt;</value>
   </data>
@@ -141,7 +282,6 @@
   <data name="resource.Text1" xml:space="preserve">
     <value>&lt;html&gt;&lt;span lang="RU"&gt;&lt;p&gt;The MIT License (MIT)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018 &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;br /&gt;Copyright (c) 2015 Space Earth Studio, &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&lt;/p&gt;&lt;p&gt;of this software and associated documentation files (the "Software"), to deal&lt;/p&gt;&lt;p&gt;in the Software without restriction, including without limitation the rights&lt;/p&gt;&lt;p&gt;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&lt;/p&gt;&lt;p&gt;copies of the Software, and to permit persons to whom the Software is&lt;/p&gt;&lt;p&gt;furnished to do so, subject to the following conditions:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all&lt;/p&gt;&lt;p&gt;copies or substantial portions of the Software.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&lt;/p&gt;&lt;p&gt;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&lt;/p&gt;&lt;p&gt;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&lt;/p&gt;&lt;p&gt;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&lt;/p&gt;&lt;p&gt;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&lt;/p&gt;&lt;p&gt;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&lt;/p&gt;&lt;p&gt;SOFTWARE.&lt;/p&gt;&lt;/span&gt;&lt;/html&gt;</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="radPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEARwBHAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERET

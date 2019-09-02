@@ -37,6 +37,7 @@
             this.radButton1 = new Telerik.WinControls.UI.RadButton();
             this.StatusBar = new Telerik.WinControls.UI.RadProgressBar();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.vs12theme = new Telerik.WinControls.Themes.VisualStudio2012DarkTheme();
             ((System.ComponentModel.ISupportInitialize)(this.goButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cancelButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.autocheckCheckBox)).BeginInit();
@@ -156,5 +157,6 @@
         private Telerik.WinControls.UI.RadButton radButton1;
         private Telerik.WinControls.UI.RadProgressBar StatusBar;
         private System.Windows.Forms.Timer timer1;
+        private Telerik.WinControls.Themes.VisualStudio2012DarkTheme vs12theme;
     }
 }

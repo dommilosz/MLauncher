@@ -159,20 +159,48 @@ namespace MLauncher.Forms
         {
             if (!string.IsNullOrWhiteSpace(UsernameTextBox.Text))
             {
-                if (!YesNoToggleSwitch.Value ||
-                    YesNoToggleSwitch.Value && !string.IsNullOrWhiteSpace(PasswordTextBox.Text))
+
+                char last = UsernameTextBox.Text[UsernameTextBox.Text.Length - 1];
+                if (char.IsLetterOrDigit(last) || last == '_')
+                {
+                    AddUserButton.Enabled = true;
+                }
+                else
+                {
+                    AddUserButton.Enabled = false;
+                    string newname = UsernameTextBox.Text.Replace(last.ToString(), "");
+                    UsernameTextBox.Text = "";
+                    UsernameTextBox.AppendText(newname);
+                    TextBox_TextChanged(sender, e);
+                    return;
+                }
+
+                #region premium
+                if (YesNoToggleSwitch.Value && !string.IsNullOrWhiteSpace(PasswordTextBox.Text))
                 {
                     AddUserButton.Enabled = true;
                 }
                 else if (YesNoToggleSwitch.Value && string.IsNullOrWhiteSpace(PasswordTextBox.Text))
                 {
                     AddUserButton.Enabled = false;
+                    return;
                 }
+                #endregion
+
+                #region cracked
+                if (!YesNoToggleSwitch.Value && UsernameTextBox.Text.Length >= 3 && UsernameTextBox.Text.Length <= 16)
+                {
+                    AddUserButton.Enabled = true;
+
+                }
+                else if (!YesNoToggleSwitch.Value)
+                {
+                    AddUserButton.Enabled = false;
+                    return;
+                }
+                #endregion
             }
-            else
-            {
-                AddUserButton.Enabled = false;
-            }
+            else { AddUserButton.Enabled = false; }
         }
 
         private void LoadLocalization()
