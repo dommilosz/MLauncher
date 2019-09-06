@@ -299,7 +299,7 @@ Please, check for your Internet configuration and restart the launcher.
         private void AddProfile_Click(object sender, EventArgs e)
         {
             Profile editedProfile = Profile.ParseProfile(_selectedProfile.ToString());
-            editedProfile.ProfileName = $"Copy of '{_selectedProfile.ProfileName}'({LinuxTimeStamp})";
+            editedProfile.ProfileName = $"Copy of '{_selectedProfile.ProfileName}'";
             ProfileForm pf = new ProfileForm(editedProfile, _configuration)
             {
                 Text = _configuration.Localization.AddingProfileTitle
@@ -840,6 +840,7 @@ Please, check for your Internet configuration and restart the launcher.
 
         private void UpdateProfileList()
         {
+            radListView1.Items.Clear();
             profilesDropDownBox.Items.Clear();
             profilesListView.Items.Clear();
             string profilesPath = PatchCombineFix.PatchCombine(_configuration.McDirectory, @"\launcher_profiles.json");
@@ -918,13 +919,27 @@ Please, check for your Internet configuration and restart the launcher.
                     allowedReleaseTypes = profile.AllowedReleaseTypes.Aggregate(allowedReleaseTypes, (current, type) => current + $", {type}");
                 }
                 profilesListView.Items.Add(keyValuePair.Key, profile.ProfileName, profile.SelectedVersion ?? "latest", allowedReleaseTypes, profile.LauncherVisibilityOnGameClose);
+
+                string MCVersion = profile.SelectedVersion ?? GetLatestVersion(profile);
+                string Name = profile.ProfileName;
+                int FontSize = 12;
+
+                int MaxLenght = 36;
+                if (Name.Length > 18) FontSize -= 2;
+                if (Name.Length > 22) FontSize -= 2;
+                if (Name.Length > 29) FontSize -= 2;
+
+                if (Name.Length > MaxLenght) Name = Name.Remove(MaxLenght-2)+"...";
+
+                string text = $"<html><size={FontSize}>{Name}<br><size=9><color= #646464>{MCVersion}";
+                ListViewDataItem item = new ListViewDataItem(text);
+
+                item.BorderColor = Color.CornflowerBlue;
+                item.TextAlignment = ContentAlignment.MiddleCenter;
+
+                radListView1.Items.Add(item);
             }
-            radListView1.Items.Clear();
-            for (int i = 0; i < profilesDropDownBox.Items.Count; i++)
-            {
-                radListView1.Items.Add(profilesDropDownBox.Items[i]);
-                radListView1.Items[i].BorderColor = Color.CornflowerBlue;
-            }
+            
 
         }
 

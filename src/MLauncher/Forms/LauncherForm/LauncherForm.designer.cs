@@ -34,10 +34,10 @@ namespace MLauncher.Forms
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Telerik.WinControls.UI.ListViewDataItem listViewDataItem1 = new Telerik.WinControls.UI.ListViewDataItem("ListViewItem 1");
-            Telerik.WinControls.UI.ListViewDataItem listViewDataItem2 = new Telerik.WinControls.UI.ListViewDataItem("ListViewItem 1");
-            Telerik.WinControls.UI.ListViewDataItem listViewDataItem3 = new Telerik.WinControls.UI.ListViewDataItem("ListViewItem 2");
-            Telerik.WinControls.UI.ListViewDataItem listViewDataItem4 = new Telerik.WinControls.UI.ListViewDataItem("ListViewItem 3");
+            Telerik.WinControls.UI.ListViewDataItem listViewDataItem1 = new Telerik.WinControls.UI.ListViewDataItem("<html><size=12>ProfileName<br><size=9><color= #646464>MCVersion");
+            Telerik.WinControls.UI.ListViewDataItem listViewDataItem2 = new Telerik.WinControls.UI.ListViewDataItem("<html><size=12>ProfileName<br><size=9><color= #646464>MCVersion");
+            Telerik.WinControls.UI.ListViewDataItem listViewDataItem3 = new Telerik.WinControls.UI.ListViewDataItem("<html><size=12>ProfileName<br><size=9><color= #646464>MCVersion");
+            Telerik.WinControls.UI.ListViewDataItem listViewDataItem4 = new Telerik.WinControls.UI.ListViewDataItem("<html><size=12>ProfileName<br><size=9><color= #646464>MCVersion");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LauncherForm));
             Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn1 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 0", "Version");
             Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn2 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 1", "Type");
@@ -286,16 +286,21 @@ namespace MLauncher.Forms
             this.radListView1.AllowColumnResize = false;
             this.radListView1.AllowEdit = false;
             this.radListView1.AllowRemove = false;
-            this.radListView1.Font = new System.Drawing.Font("Segoe UI", 18F);
+            this.radListView1.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.radListView1.FullRowSelect = false;
             listViewDataItem1.BorderColor = System.Drawing.Color.CornflowerBlue;
-            listViewDataItem1.Text = "ListViewItem 1";
+            listViewDataItem1.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            listViewDataItem1.Text = "<html><size=12>ProfileName<br><size=9><color= #646464>MCVersion";
+            listViewDataItem1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             listViewDataItem2.BorderColor = System.Drawing.Color.CornflowerBlue;
-            listViewDataItem2.Text = "ListViewItem 1";
+            listViewDataItem2.Text = "<html><size=12>ProfileName<br><size=9><color= #646464>MCVersion";
+            listViewDataItem2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             listViewDataItem3.BorderColor = System.Drawing.Color.CornflowerBlue;
-            listViewDataItem3.Text = "ListViewItem 2";
+            listViewDataItem3.Text = "<html><size=12>ProfileName<br><size=9><color= #646464>MCVersion";
+            listViewDataItem3.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             listViewDataItem4.BorderColor = System.Drawing.Color.CornflowerBlue;
-            listViewDataItem4.Text = "ListViewItem 3";
+            listViewDataItem4.Text = "<html><size=12>ProfileName<br><size=9><color= #646464>MCVersion";
+            listViewDataItem4.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.radListView1.Items.AddRange(new Telerik.WinControls.UI.ListViewDataItem[] {
             listViewDataItem1,
             listViewDataItem2,
@@ -714,7 +719,6 @@ namespace MLauncher.Forms
             // AboutPageViewPage
             // 
             this.AboutPageViewPage.Controls.Add(this.radScrollablePanel2);
-            this.AboutPageViewPage.ItemSize = new System.Drawing.SizeF(418F, 24F);
             this.AboutPageViewPage.Location = new System.Drawing.Point(5, 5);
             this.AboutPageViewPage.Name = "AboutPageViewPage";
             this.AboutPageViewPage.Size = new System.Drawing.Size(838, 293);
@@ -752,7 +756,7 @@ namespace MLauncher.Forms
             this.langWikiLink.AutoSize = true;
             this.langWikiLink.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.langWikiLink.LinkColor = System.Drawing.Color.Gray;
-            this.langWikiLink.Location = new System.Drawing.Point(711, 3);
+            this.langWikiLink.Location = new System.Drawing.Point(713, 3);
             this.langWikiLink.Name = "langWikiLink";
             this.langWikiLink.Size = new System.Drawing.Size(76, 13);
             this.langWikiLink.TabIndex = 5;
@@ -1009,7 +1013,6 @@ namespace MLauncher.Forms
             // LicensesPage
             // 
             this.LicensesPage.Controls.Add(this.licensePageView);
-            this.LicensesPage.ItemSize = new System.Drawing.SizeF(430F, 24F);
             this.LicensesPage.Location = new System.Drawing.Point(5, 5);
             this.LicensesPage.Name = "LicensesPage";
             this.LicensesPage.Size = new System.Drawing.Size(838, 293);
