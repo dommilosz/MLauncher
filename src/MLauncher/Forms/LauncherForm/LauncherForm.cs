@@ -194,37 +194,30 @@ Please, check for your Internet configuration and restart the launcher.
 
         void InitThemes()
         {
-            ThemeResolutionService.EnsureThemeRegistered("Aqua");
-            ThemeResolutionService.EnsureThemeRegistered("Breeze");
-            ThemeResolutionService.EnsureThemeRegistered("Crystal");
-            ThemeResolutionService.EnsureThemeRegistered("CrystalDark");
-            ThemeResolutionService.EnsureThemeRegistered("Desert");
-            ThemeResolutionService.EnsureThemeRegistered("Fluent");
-            ThemeResolutionService.EnsureThemeRegistered("VisualStudio2012Light");
-            ThemeResolutionService.EnsureThemeRegistered("FluentDark");
-            ThemeResolutionService.EnsureThemeRegistered("HighContrastBlack");
-            ThemeResolutionService.EnsureThemeRegistered("Office2007Black");
-            ThemeResolutionService.EnsureThemeRegistered("Office2007Silver");
-            ThemeResolutionService.EnsureThemeRegistered("Office2010Black");
-            ThemeResolutionService.EnsureThemeRegistered("Office2010Blue");
-            ThemeResolutionService.EnsureThemeRegistered("Office2010Silver");
-            ThemeResolutionService.EnsureThemeRegistered("Office2013Dark");
-            ThemeResolutionService.EnsureThemeRegistered("Office2013Light");
-            ThemeResolutionService.EnsureThemeRegistered("TelerikMetro");
-            ThemeResolutionService.EnsureThemeRegistered("TelerikMetroBlue");
-            ThemeResolutionService.EnsureThemeRegistered("VisualStudio2012Light");
-            ThemeResolutionService.EnsureThemeRegistered("Windows7");
-            ThemeResolutionService.EnsureThemeRegistered("Windows8");
+            List<string> items = new List<string>();
+            items.Add("Aqua");
+            items.Add("Breeze");
+            items.Add("Crystal");
+            items.Add("CrystalDark");
+            items.Add("Desert");
+            items.Add("Fluent");
+            items.Add("FluentDark");
+            items.Add("HighContrastBlack");
+            items.Add("Office2007Black");
+            items.Add("Office2007Silver");
+            items.Add("Office2010Black");
+            items.Add("Office2010Blue");
+            items.Add("Office2010Silver");
+            items.Add("Office2013Dark");
+            items.Add("Office2013Light");
+            items.Add("TelerikMetro");
+            items.Add("TelerikMetroBlue");
+            items.Add("Windows7");
+            items.Add("Windows8");
             var tmp = ThemeResolutionService.GetAvailableThemes();
             radDropDownList2.Items.Add("VisualStudio2012Dark");
             radDropDownList2.Items.Add("VisualStudio2012Light");
-            List<string> items = new List<string>();
-            foreach (var item in tmp)
-            {
-                string txt = ((Theme)item).Name;
-                if (!items.Contains(txt)&&!radDropDownList2.Items.Contains(txt))
-                    items.Add(txt);
-            }
+
             items.Sort();
             radDropDownList2.Items.AddRange(items);
             for (int i = 0; i < radDropDownList2.Items.Count; i++)
@@ -1680,10 +1673,51 @@ Please, check for your Internet configuration and restart the launcher.
         {
             try
             {
+                ThemeResolutionService.EnsureThemeRegistered("Windows7");
+                ThemeResolutionService.EnsureThemeRegistered(radDropDownList2.Text);
+            }
+            catch { }
+            try
+            {
+                if(radDropDownList2.Text.Contains("VisualStudio2012"))
+                ThemeResolutionService.ApplicationThemeName = "Windows7";
                 ThemeResolutionService.ApplicationThemeName = radDropDownList2.Text;
                 _cfg.SelectedTheme = radDropDownList2.Text;
             }
             catch { }
+        }
+
+        private void RadButton3_Click(object sender, EventArgs e)
+        {
+            string patch = _selectedProfile.WorkingDirectory ?? _configuration.McDirectory;
+            var split = patch.Split(@"\".ToCharArray()[0]);
+            string dirname = split[split.Length - 1];
+            string patchnofile = patch.Replace(dirname, "");
+
+            if( RadMessageBox.Show($"Do You Want To Delete \n\"{patch}\" Folder?\nThis Can Help Sometimes when game crashes\nBackup of this directory folder will be created at \"{patch}-BCK({LinuxTimeStamp})\"", "Delete Working Directory?", MessageBoxButtons.YesNo, RadMessageIcon.Exclamation) == DialogResult.Yes)
+            {
+                try
+                {
+                    string strCmdText = $"/C cd \"{patchnofile}\" &ren \"{dirname}\" \"{dirname}-BCK({LinuxTimeStamp})\"";
+                    Process.Start("CMD.exe", strCmdText);
+                }
+                catch { }
+            }
+        }
+
+        private void RadButton4_Click(object sender, EventArgs e)
+        {
+            if (RadMessageBox.Show($"Do You Want To Reset Launcher To Default Settings?", "Reset Launcher?", MessageBoxButtons.YesNo, RadMessageIcon.Exclamation) == DialogResult.Yes)
+            {
+                string MLauncherFolderPatch = _configuration.McDirectory + @"\MLauncher";
+                try
+                {
+                    string strCmdText = $"/C del /Q \"{MLauncherFolderPatch}\"";
+                    Process.Start("CMD.exe", strCmdText);
+                    Application.Restart();
+                }
+                catch { }
+            }
         }
     }
 
