@@ -2,7 +2,7 @@
 
 **This Project Is Moved From <https://github.com/dommilosz/MLauncher->**
 
-**Install From <https://github.com/dommilosz/MLauncher/releases/download/v0.2.0/MLauncher_Installer.zip>**
+**Install - Run Setup.msi from latest relase**
 
 ![Screenshot](.github/assets/wiki/screenshots/scr_023_01.png)
 
