@@ -2,8 +2,6 @@
 
 **This Project Is Moved From <https://github.com/dommilosz/MLauncher->**
 
-**Install - <https://github.com/dommilosz/MLauncher/releases/download/v0.2.0/Setup.msi>**
-
 ![Screenshot](.github/assets/wiki/screenshots/scr_023_01.png)
 
 This is open source unofficial Minecraft launcher, based on dotMCLauncher and FreeLauncher. Feel free to contibute.
