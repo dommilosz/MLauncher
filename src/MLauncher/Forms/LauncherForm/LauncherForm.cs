@@ -216,20 +216,20 @@ Please, check for your Internet configuration and restart the launcher.
             items.Add("Windows7");
             items.Add("Windows8");
             var tmp = ThemeResolutionService.GetAvailableThemes();
-            radDropDownList2.Items.Add("VisualStudio2012Dark");
-            radDropDownList2.Items.Add("VisualStudio2012Light");
+            ThemeDropDownList.Items.Add("VisualStudio2012Dark");
+            ThemeDropDownList.Items.Add("VisualStudio2012Light");
 
             items.Sort();
-            radDropDownList2.Items.AddRange(items);
-            for (int i = 0; i < radDropDownList2.Items.Count; i++)
+            ThemeDropDownList.Items.AddRange(items);
+            for (int i = 0; i < ThemeDropDownList.Items.Count; i++)
             {
-                if (radDropDownList2.Items[i].Text == _cfg.SelectedTheme)
+                if (ThemeDropDownList.Items[i].Text == _cfg.SelectedTheme)
                 {
-                    radDropDownList2.SelectedItem = radDropDownList2.Items[i];
+                    ThemeDropDownList.SelectedItem = ThemeDropDownList.Items[i];
                     return;
                 }
             }
-            radDropDownList2.SelectedItem = radDropDownList2.Items[0];
+            ThemeDropDownList.SelectedItem = ThemeDropDownList.Items[0];
 
         }
         private void LauncherForm_FormClosing(object sender, FormClosingEventArgs e)
@@ -1675,7 +1675,7 @@ Please, check for your Internet configuration and restart the launcher.
 
         private void RadDropDownList2_SelectedIndexChanged_1(object sender, PositionChangedEventArgs e)
         {
-            string t = radDropDownList2.Text;
+            string t = ThemeDropDownList.Text;
             try
             {
                 ThemeResolutionService.EnsureThemeRegistered("Windows7");
