@@ -117,6 +117,105 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="resource.Text" xml:space="preserve">
+    <value>&lt;html&gt;&lt;span lang="RU"&gt;&lt;p&gt;The MIT License (MIT)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018 &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;br /&gt;Copyright (c) 2014-2015 Space Earth Studio, &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&lt;/p&gt;&lt;p&gt;of this software and associated documentation files (the "Software"), to deal&lt;/p&gt;&lt;p&gt;in the Software without restriction, including without limitation the rights&lt;/p&gt;&lt;p&gt;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&lt;/p&gt;&lt;p&gt;copies of the Software, and to permit persons to whom the Software is&lt;/p&gt;&lt;p&gt;furnished to do so, subject to the following conditions:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all&lt;/p&gt;&lt;p&gt;copies or substantial portions of the Software.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&lt;/p&gt;&lt;p&gt;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&lt;/p&gt;&lt;p&gt;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&lt;/p&gt;&lt;p&gt;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&lt;/p&gt;&lt;p&gt;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&lt;/p&gt;&lt;p&gt;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&lt;/p&gt;&lt;p&gt;SOFTWARE.&lt;/p&gt;&lt;/span&gt;&lt;/html&gt;</value>
+  </data>
+  <data name="resource.Text1" xml:space="preserve">
+    <value>&lt;html&gt;&lt;span lang="RU"&gt;&lt;p&gt;The MIT License (MIT)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018 &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;br /&gt;Copyright (c) 2015 Space Earth Studio, &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&lt;/p&gt;&lt;p&gt;of this software and associated documentation files (the "Software"), to deal&lt;/p&gt;&lt;p&gt;in the Software without restriction, including without limitation the rights&lt;/p&gt;&lt;p&gt;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&lt;/p&gt;&lt;p&gt;copies of the Software, and to permit persons to whom the Software is&lt;/p&gt;&lt;p&gt;furnished to do so, subject to the following conditions:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all&lt;/p&gt;&lt;p&gt;copies or substantial portions of the Software.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&lt;/p&gt;&lt;p&gt;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&lt;/p&gt;&lt;p&gt;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&lt;/p&gt;&lt;p&gt;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&lt;/p&gt;&lt;p&gt;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&lt;/p&gt;&lt;p&gt;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&lt;/p&gt;&lt;p&gt;SOFTWARE.&lt;/p&gt;&lt;/span&gt;&lt;/html&gt;</value>
+  </data>
+  <data name="MLauncherLicenseText.Text" xml:space="preserve">
+    <value>&lt;html&gt;&lt;span lang="RU"&gt;&lt;p&gt;The MIT License (MIT)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018 &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;br /&gt;Copyright (c) 2014-2015 Space Earth Studio, &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&lt;/p&gt;&lt;p&gt;of this software and associated documentation files (the "Software"), to deal&lt;/p&gt;&lt;p&gt;in the Software without restriction, including without limitation the rights&lt;/p&gt;&lt;p&gt;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&lt;/p&gt;&lt;p&gt;copies of the Software, and to permit persons to whom the Software is&lt;/p&gt;&lt;p&gt;furnished to do so, subject to the following conditions:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all&lt;/p&gt;&lt;p&gt;copies or substantial portions of the Software.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&lt;/p&gt;&lt;p&gt;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&lt;/p&gt;&lt;p&gt;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&lt;/p&gt;&lt;p&gt;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&lt;/p&gt;&lt;p&gt;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&lt;/p&gt;&lt;p&gt;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&lt;/p&gt;&lt;p&gt;SOFTWARE.&lt;/p&gt;&lt;/span&gt;&lt;/html&gt;</value>
+  </data>
+  <data name="resource.Text" xml:space="preserve">
+    <value>&lt;html&gt;&lt;span lang="RU"&gt;&lt;p&gt;The MIT License (MIT)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018 &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;br /&gt;Copyright (c) 2014-2015 Space Earth Studio, &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&lt;/p&gt;&lt;p&gt;of this software and associated documentation files (the "Software"), to deal&lt;/p&gt;&lt;p&gt;in the Software without restriction, including without limitation the rights&lt;/p&gt;&lt;p&gt;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&lt;/p&gt;&lt;p&gt;copies of the Software, and to permit persons to whom the Software is&lt;/p&gt;&lt;p&gt;furnished to do so, subject to the following conditions:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all&lt;/p&gt;&lt;p&gt;copies or substantial portions of the Software.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&lt;/p&gt;&lt;p&gt;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&lt;/p&gt;&lt;p&gt;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&lt;/p&gt;&lt;p&gt;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&lt;/p&gt;&lt;p&gt;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&lt;/p&gt;&lt;p&gt;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&lt;/p&gt;&lt;p&gt;SOFTWARE.&lt;/p&gt;&lt;/span&gt;&lt;/html&gt;</value>
+  </data>
+  <data name="dotMCLauncherLicenseText.Text" xml:space="preserve">
+    <value>&lt;html&gt;&lt;span lang="RU"&gt;&lt;p&gt;The MIT License (MIT)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018 &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;br /&gt;Copyright (c) 2015 Space Earth Studio, &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&lt;/p&gt;&lt;p&gt;of this software and associated documentation files (the "Software"), to deal&lt;/p&gt;&lt;p&gt;in the Software without restriction, including without limitation the rights&lt;/p&gt;&lt;p&gt;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&lt;/p&gt;&lt;p&gt;copies of the Software, and to permit persons to whom the Software is&lt;/p&gt;&lt;p&gt;furnished to do so, subject to the following conditions:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all&lt;/p&gt;&lt;p&gt;copies or substantial portions of the Software.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&lt;/p&gt;&lt;p&gt;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&lt;/p&gt;&lt;p&gt;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&lt;/p&gt;&lt;p&gt;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&lt;/p&gt;&lt;p&gt;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&lt;/p&gt;&lt;p&gt;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&lt;/p&gt;&lt;p&gt;SOFTWARE.&lt;/p&gt;&lt;/span&gt;&lt;/html&gt;</value>
+  </data>
+  <data name="resource.Text1" xml:space="preserve">
+    <value>&lt;html&gt;&lt;span lang="RU"&gt;&lt;p&gt;The MIT License (MIT)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018 &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;br /&gt;Copyright (c) 2015 Space Earth Studio, &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&lt;/p&gt;&lt;p&gt;of this software and associated documentation files (the "Software"), to deal&lt;/p&gt;&lt;p&gt;in the Software without restriction, including without limitation the rights&lt;/p&gt;&lt;p&gt;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&lt;/p&gt;&lt;p&gt;copies of the Software, and to permit persons to whom the Software is&lt;/p&gt;&lt;p&gt;furnished to do so, subject to the following conditions:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all&lt;/p&gt;&lt;p&gt;copies or substantial portions of the Software.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&lt;/p&gt;&lt;p&gt;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&lt;/p&gt;&lt;p&gt;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&lt;/p&gt;&lt;p&gt;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&lt;/p&gt;&lt;p&gt;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&lt;/p&gt;&lt;p&gt;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&lt;/p&gt;&lt;p&gt;SOFTWARE.&lt;/p&gt;&lt;/span&gt;&lt;/html&gt;</value>
+  </data>
+  <metadata name="visualStudio2012DarkTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 17</value>
+  </metadata>
+  <metadata name="aquaTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>340, 17</value>
+  </metadata>
+  <metadata name="breezeTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>462, 17</value>
+  </metadata>
+  <metadata name="crystalTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>594, 17</value>
+  </metadata>
+  <metadata name="crystalDarkTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="desertTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>172, 56</value>
+  </metadata>
+  <metadata name="fluentTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>301, 56</value>
+  </metadata>
+  <metadata name="fluentDarkTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>428, 56</value>
+  </metadata>
+  <metadata name="highContrastBlackTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 95</value>
+  </metadata>
+  <metadata name="materialTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>211, 95</value>
+  </metadata>
+  <metadata name="materialBlueGreyTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>350, 95</value>
+  </metadata>
+  <metadata name="materialPinkTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>538, 95</value>
+  </metadata>
+  <metadata name="materialTealTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 134</value>
+  </metadata>
+  <metadata name="office2007BlackTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>179, 134</value>
+  </metadata>
+  <metadata name="office2007SilverTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>359, 134</value>
+  </metadata>
+  <metadata name="office2010BlackTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>540, 134</value>
+  </metadata>
+  <metadata name="office2010BlueTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 173</value>
+  </metadata>
+  <metadata name="office2010SilverTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>193, 173</value>
+  </metadata>
+  <metadata name="office2013DarkTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>374, 173</value>
+  </metadata>
+  <metadata name="office2013LightTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>551, 173</value>
+  </metadata>
+  <metadata name="telerikMetroTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 212</value>
+  </metadata>
+  <metadata name="telerikMetroBlueTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>179, 212</value>
+  </metadata>
+  <metadata name="telerikMetroTouchTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>365, 212</value>
+  </metadata>
+  <metadata name="visualStudio2012LightTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 251</value>
+  </metadata>
+  <metadata name="windows7Theme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>232, 251</value>
+  </metadata>
+  <metadata name="windows8Theme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>381, 251</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -263,21 +362,6 @@
         HRPtK1fcZ+4ehV901KLCTLRvg3YVvWOifeWK+8zdo/CLjlpUmIn2bdCuondMtK9ccZ+5exR+0VGLCjPR
         vg3aVfSOifaVK+7fo3n16v8D57VP9+zqSd8AAAAASUVORK5CYII=
 </value>
-  </data>
-  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="MLauncherLicenseText.Text" xml:space="preserve">
-    <value>&lt;html&gt;&lt;span lang="RU"&gt;&lt;p&gt;The MIT License (MIT)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018 &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;br /&gt;Copyright (c) 2014-2015 Space Earth Studio, &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&lt;/p&gt;&lt;p&gt;of this software and associated documentation files (the "Software"), to deal&lt;/p&gt;&lt;p&gt;in the Software without restriction, including without limitation the rights&lt;/p&gt;&lt;p&gt;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&lt;/p&gt;&lt;p&gt;copies of the Software, and to permit persons to whom the Software is&lt;/p&gt;&lt;p&gt;furnished to do so, subject to the following conditions:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all&lt;/p&gt;&lt;p&gt;copies or substantial portions of the Software.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&lt;/p&gt;&lt;p&gt;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&lt;/p&gt;&lt;p&gt;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&lt;/p&gt;&lt;p&gt;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&lt;/p&gt;&lt;p&gt;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&lt;/p&gt;&lt;p&gt;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&lt;/p&gt;&lt;p&gt;SOFTWARE.&lt;/p&gt;&lt;/span&gt;&lt;/html&gt;</value>
-  </data>
-  <data name="resource.Text" xml:space="preserve">
-    <value>&lt;html&gt;&lt;span lang="RU"&gt;&lt;p&gt;The MIT License (MIT)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018 &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;br /&gt;Copyright (c) 2014-2015 Space Earth Studio, &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&lt;/p&gt;&lt;p&gt;of this software and associated documentation files (the "Software"), to deal&lt;/p&gt;&lt;p&gt;in the Software without restriction, including without limitation the rights&lt;/p&gt;&lt;p&gt;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&lt;/p&gt;&lt;p&gt;copies of the Software, and to permit persons to whom the Software is&lt;/p&gt;&lt;p&gt;furnished to do so, subject to the following conditions:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all&lt;/p&gt;&lt;p&gt;copies or substantial portions of the Software.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&lt;/p&gt;&lt;p&gt;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&lt;/p&gt;&lt;p&gt;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&lt;/p&gt;&lt;p&gt;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&lt;/p&gt;&lt;p&gt;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&lt;/p&gt;&lt;p&gt;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&lt;/p&gt;&lt;p&gt;SOFTWARE.&lt;/p&gt;&lt;/span&gt;&lt;/html&gt;</value>
-  </data>
-  <data name="dotMCLauncherLicenseText.Text" xml:space="preserve">
-    <value>&lt;html&gt;&lt;span lang="RU"&gt;&lt;p&gt;The MIT License (MIT)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018 &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;br /&gt;Copyright (c) 2015 Space Earth Studio, &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&lt;/p&gt;&lt;p&gt;of this software and associated documentation files (the "Software"), to deal&lt;/p&gt;&lt;p&gt;in the Software without restriction, including without limitation the rights&lt;/p&gt;&lt;p&gt;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&lt;/p&gt;&lt;p&gt;copies of the Software, and to permit persons to whom the Software is&lt;/p&gt;&lt;p&gt;furnished to do so, subject to the following conditions:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all&lt;/p&gt;&lt;p&gt;copies or substantial portions of the Software.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&lt;/p&gt;&lt;p&gt;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&lt;/p&gt;&lt;p&gt;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&lt;/p&gt;&lt;p&gt;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&lt;/p&gt;&lt;p&gt;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&lt;/p&gt;&lt;p&gt;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&lt;/p&gt;&lt;p&gt;SOFTWARE.&lt;/p&gt;&lt;/span&gt;&lt;/html&gt;</value>
-  </data>
-  <data name="resource.Text1" xml:space="preserve">
-    <value>&lt;html&gt;&lt;span lang="RU"&gt;&lt;p&gt;The MIT License (MIT)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Copyright (c) 2016-2018 &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;br /&gt;Copyright (c) 2015 Space Earth Studio, &lt;a href="https://github.com/dedepete"&gt;https://github.com/dedepete&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&lt;/p&gt;&lt;p&gt;of this software and associated documentation files (the "Software"), to deal&lt;/p&gt;&lt;p&gt;in the Software without restriction, including without limitation the rights&lt;/p&gt;&lt;p&gt;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&lt;/p&gt;&lt;p&gt;copies of the Software, and to permit persons to whom the Software is&lt;/p&gt;&lt;p&gt;furnished to do so, subject to the following conditions:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The above copyright notice and this permission notice shall be included in all&lt;/p&gt;&lt;p&gt;copies or substantial portions of the Software.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&lt;/p&gt;&lt;p&gt;IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,&lt;/p&gt;&lt;p&gt;FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE&lt;/p&gt;&lt;p&gt;AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER&lt;/p&gt;&lt;p&gt;LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,&lt;/p&gt;&lt;p&gt;OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE&lt;/p&gt;&lt;p&gt;SOFTWARE.&lt;/p&gt;&lt;/span&gt;&lt;/html&gt;</value>
   </data>
   <data name="radPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -5536,84 +5620,6 @@
         AAAAAAAAAEDxRBMBAAAAAAAAAAAAAEVT+sj/Hw5BNTdseAHJAAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="visualStudio2012DarkTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>127, 17</value>
-  </metadata>
-  <metadata name="aquaTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>340, 17</value>
-  </metadata>
-  <metadata name="breezeTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>462, 17</value>
-  </metadata>
-  <metadata name="crystalTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>594, 17</value>
-  </metadata>
-  <metadata name="crystalDarkTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
-  </metadata>
-  <metadata name="desertTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>172, 56</value>
-  </metadata>
-  <metadata name="fluentTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>301, 56</value>
-  </metadata>
-  <metadata name="fluentDarkTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>428, 56</value>
-  </metadata>
-  <metadata name="highContrastBlackTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 95</value>
-  </metadata>
-  <metadata name="materialTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>211, 95</value>
-  </metadata>
-  <metadata name="materialBlueGreyTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>350, 95</value>
-  </metadata>
-  <metadata name="materialPinkTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>538, 95</value>
-  </metadata>
-  <metadata name="materialTealTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 134</value>
-  </metadata>
-  <metadata name="office2007BlackTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>179, 134</value>
-  </metadata>
-  <metadata name="office2007SilverTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>359, 134</value>
-  </metadata>
-  <metadata name="office2010BlackTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>540, 134</value>
-  </metadata>
-  <metadata name="office2010BlueTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 173</value>
-  </metadata>
-  <metadata name="office2010SilverTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>193, 173</value>
-  </metadata>
-  <metadata name="office2013DarkTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>374, 173</value>
-  </metadata>
-  <metadata name="office2013LightTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>551, 173</value>
-  </metadata>
-  <metadata name="telerikMetroTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 212</value>
-  </metadata>
-  <metadata name="telerikMetroBlueTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>179, 212</value>
-  </metadata>
-  <metadata name="telerikMetroTouchTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>365, 212</value>
-  </metadata>
-  <metadata name="visualStudio2012LightTheme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 251</value>
-  </metadata>
-  <metadata name="windows7Theme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>232, 251</value>
-  </metadata>
-  <metadata name="windows8Theme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>381, 251</value>
-  </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>60</value>
   </metadata>

@@ -15,6 +15,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Reflection;
+using System.Resources;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
@@ -1659,7 +1660,10 @@ Please, check for your Internet configuration and restart the launcher.
             {
                 pictureBox1.Load($"https://minotar.net/body/{name}.png");
             }
-            catch { }
+            catch
+            {
+                pictureBox1.Image = Properties.Resources.MHF_Steve;
+            }
 
         }
 
@@ -1671,18 +1675,35 @@ Please, check for your Internet configuration and restart the launcher.
 
         private void RadDropDownList2_SelectedIndexChanged_1(object sender, PositionChangedEventArgs e)
         {
+            string t = radDropDownList2.Text;
             try
             {
                 ThemeResolutionService.EnsureThemeRegistered("Windows7");
-                ThemeResolutionService.EnsureThemeRegistered(radDropDownList2.Text);
+                ThemeResolutionService.EnsureThemeRegistered(t);
             }
             catch { }
             try
             {
-                if(radDropDownList2.Text.Contains("VisualStudio2012"))
+                if (t.Contains("VisualStudio2012"))
                 ThemeResolutionService.ApplicationThemeName = "Windows7";
-                ThemeResolutionService.ApplicationThemeName = radDropDownList2.Text;
-                _cfg.SelectedTheme = radDropDownList2.Text;
+
+                if (t.Contains("Office")||t.Contains("Windows")||t.Contains("2012Light")||t.Contains("TelerikMetro")||t== "Aqua"||t== "Crystal" || t == "Desert" || t == "Fluent")
+                {
+                    Bitmap editdark = Properties.Resources.edit_dark;
+                    Bitmap trashdark = Properties.Resources.trash_dark;
+                    ManageUsersButton.Image = editdark;
+                    DeleteProfileButton.Image = trashdark;
+                }
+                else
+                {
+                    Bitmap edit = Properties.Resources.edit;
+                    Bitmap trash = Properties.Resources.trash;
+                    ManageUsersButton.Image = edit;
+                    DeleteProfileButton.Image = trash;
+                }
+
+                ThemeResolutionService.ApplicationThemeName = t;
+                _cfg.SelectedTheme = t;
             }
             catch { }
         }

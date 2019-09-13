@@ -38,30 +38,29 @@ namespace MLauncher.Forms
             Telerik.WinControls.UI.ListViewDataItem listViewDataItem2 = new Telerik.WinControls.UI.ListViewDataItem("<html><size=12>ProfileName<br><size=9><color= #646464>MCVersion");
             Telerik.WinControls.UI.ListViewDataItem listViewDataItem3 = new Telerik.WinControls.UI.ListViewDataItem("<html><size=12>ProfileName<br><size=9><color= #646464>MCVersion");
             Telerik.WinControls.UI.ListViewDataItem listViewDataItem4 = new Telerik.WinControls.UI.ListViewDataItem("<html><size=12>ProfileName<br><size=9><color= #646464>MCVersion");
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LauncherForm));
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn1 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 0", "Version");
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn2 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 1", "Type");
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn3 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 3", "Relase Date");
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn4 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 4", "Last Update");
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn5 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 5", "Assets Index");
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn6 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 2", "Inherits From");
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn7 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 1", "ID");
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn8 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 0", "Name");
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn9 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 2", "Version");
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn10 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 3", "Relase Configuration");
-            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn11 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 4", "Launcher Visibility");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn11 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 0", "Version");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn12 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 1", "Type");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn13 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 3", "Relase Date");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn14 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 4", "Last Update");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn15 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 5", "Assets Index");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn16 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 2", "Inherits From");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn1 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 1", "ID");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn2 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 0", "Name");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn3 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 2", "Version");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn4 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 3", "Relase Configuration");
+            Telerik.WinControls.UI.ListViewDetailColumn listViewDetailColumn5 = new Telerik.WinControls.UI.ListViewDetailColumn("Column 4", "Launcher Visibility");
             Telerik.WinControls.UI.RadListDataItem radListDataItem1 = new Telerik.WinControls.UI.RadListDataItem();
+            Telerik.WinControls.UI.RadListDataItem radListDataItem9 = new Telerik.WinControls.UI.RadListDataItem();
+            Telerik.WinControls.UI.RadListDataItem radListDataItem10 = new Telerik.WinControls.UI.RadListDataItem();
             Telerik.WinControls.UI.RadListDataItem radListDataItem2 = new Telerik.WinControls.UI.RadListDataItem();
             Telerik.WinControls.UI.RadListDataItem radListDataItem3 = new Telerik.WinControls.UI.RadListDataItem();
             Telerik.WinControls.UI.RadListDataItem radListDataItem4 = new Telerik.WinControls.UI.RadListDataItem();
             Telerik.WinControls.UI.RadListDataItem radListDataItem5 = new Telerik.WinControls.UI.RadListDataItem();
-            Telerik.WinControls.UI.RadListDataItem radListDataItem6 = new Telerik.WinControls.UI.RadListDataItem();
-            Telerik.WinControls.UI.RadListDataItem radListDataItem7 = new Telerik.WinControls.UI.RadListDataItem();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LauncherForm));
             this.mainPageView = new Telerik.WinControls.UI.RadPageView();
             this.Hotbar = new Telerik.WinControls.UI.RadPageViewPage();
             this.radLabel2 = new Telerik.WinControls.UI.RadLabel();
             this.radListView1 = new Telerik.WinControls.UI.RadListView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.News = new Telerik.WinControls.UI.RadPageViewPage();
             this.newsBrowser = new System.Windows.Forms.WebBrowser();
             this.navBar = new Telerik.WinControls.UI.RadPanel();
@@ -123,16 +122,6 @@ namespace MLauncher.Forms
             this.dotMCLauncherLicense = new Telerik.WinControls.UI.RadPageViewPage();
             this.dotMCLauncherLicenseText = new Telerik.WinControls.UI.RadLabel();
             this.StatusBar = new Telerik.WinControls.UI.RadProgressBar();
-            this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
-            this.DeleteProfileButton = new Telerik.WinControls.UI.RadButton();
-            this.ManageUsersButton = new Telerik.WinControls.UI.RadButton();
-            this.NicknameDropDownList = new Telerik.WinControls.UI.RadDropDownList();
-            this.SelectedVersion = new System.Windows.Forms.Label();
-            this.LogoBox = new System.Windows.Forms.PictureBox();
-            this.LaunchButton = new Telerik.WinControls.UI.RadButton();
-            this.profilesDropDownBox = new Telerik.WinControls.UI.RadDropDownList();
-            this.EditProfileButton = new Telerik.WinControls.UI.RadButton();
-            this.AddProfile = new Telerik.WinControls.UI.RadButton();
             this.visualStudio2012DarkTheme1 = new Telerik.WinControls.Themes.VisualStudio2012DarkTheme();
             this.aquaTheme1 = new Telerik.WinControls.Themes.AquaTheme();
             this.breezeTheme1 = new Telerik.WinControls.Themes.BreezeTheme();
@@ -160,12 +149,22 @@ namespace MLauncher.Forms
             this.windows7Theme1 = new Telerik.WinControls.Themes.Windows7Theme();
             this.windows8Theme1 = new Telerik.WinControls.Themes.Windows8Theme();
             this.object_d04bbd82_0879_4d0c_8dbd_d5b9ad368291 = new Telerik.WinControls.RootRadElement();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
+            this.DeleteProfileButton = new Telerik.WinControls.UI.RadButton();
+            this.ManageUsersButton = new Telerik.WinControls.UI.RadButton();
+            this.NicknameDropDownList = new Telerik.WinControls.UI.RadDropDownList();
+            this.SelectedVersion = new System.Windows.Forms.Label();
+            this.LogoBox = new System.Windows.Forms.PictureBox();
+            this.LaunchButton = new Telerik.WinControls.UI.RadButton();
+            this.profilesDropDownBox = new Telerik.WinControls.UI.RadDropDownList();
+            this.EditProfileButton = new Telerik.WinControls.UI.RadButton();
+            this.AddProfile = new Telerik.WinControls.UI.RadButton();
             ((System.ComponentModel.ISupportInitialize)(this.mainPageView)).BeginInit();
             this.mainPageView.SuspendLayout();
             this.Hotbar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radListView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.News.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navBar)).BeginInit();
             this.navBar.SuspendLayout();
@@ -228,6 +227,7 @@ namespace MLauncher.Forms
             this.dotMCLauncherLicense.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dotMCLauncherLicenseText)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StatusBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
             this.radPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DeleteProfileButton)).BeginInit();
@@ -253,7 +253,7 @@ namespace MLauncher.Forms
             this.mainPageView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPageView.Location = new System.Drawing.Point(0, 0);
             this.mainPageView.Name = "mainPageView";
-            this.mainPageView.SelectedPage = this.Hotbar;
+            this.mainPageView.SelectedPage = this.Mods;
             this.mainPageView.Size = new System.Drawing.Size(858, 363);
             this.mainPageView.TabIndex = 2;
             this.mainPageView.ThemeName = "VisualStudio2012Dark";
@@ -281,7 +281,6 @@ namespace MLauncher.Forms
             this.radLabel2.Name = "radLabel2";
             this.radLabel2.Size = new System.Drawing.Size(180, 29);
             this.radLabel2.TabIndex = 3;
-            this.radLabel2.Text = "Milosz_123456";
             this.radLabel2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             this.radLabel2.ThemeName = "VisualStudio2012Dark";
             // 
@@ -322,17 +321,6 @@ namespace MLauncher.Forms
             this.radListView1.SelectedIndexChanged += new System.EventHandler(this.RadListView1_SelectedIndexChanged);
             this.radListView1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.RadListView1_MouseClick);
             this.radListView1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.RadListView1_MouseDoubleClick);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(664, 42);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(180, 283);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // News
             // 
@@ -463,25 +451,25 @@ namespace MLauncher.Forms
             this.versionsListView.AllowRemove = false;
             this.versionsListView.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.versionsListView.CheckOnClickMode = Telerik.WinControls.UI.CheckOnClickMode.FirstClick;
-            listViewDetailColumn1.HeaderText = "Version";
-            listViewDetailColumn1.Width = 150F;
-            listViewDetailColumn2.HeaderText = "Type";
-            listViewDetailColumn2.Width = 100F;
-            listViewDetailColumn3.HeaderText = "Relase Date";
-            listViewDetailColumn3.Width = 150F;
-            listViewDetailColumn4.HeaderText = "Last Update";
-            listViewDetailColumn4.Width = 150F;
-            listViewDetailColumn5.HeaderText = "Assets Index";
-            listViewDetailColumn5.Width = 120F;
-            listViewDetailColumn6.HeaderText = "Inherits From";
-            listViewDetailColumn6.Width = 100F;
+            listViewDetailColumn11.HeaderText = "Version";
+            listViewDetailColumn11.Width = 150F;
+            listViewDetailColumn12.HeaderText = "Type";
+            listViewDetailColumn12.Width = 100F;
+            listViewDetailColumn13.HeaderText = "Relase Date";
+            listViewDetailColumn13.Width = 150F;
+            listViewDetailColumn14.HeaderText = "Last Update";
+            listViewDetailColumn14.Width = 150F;
+            listViewDetailColumn15.HeaderText = "Assets Index";
+            listViewDetailColumn15.Width = 120F;
+            listViewDetailColumn16.HeaderText = "Inherits From";
+            listViewDetailColumn16.Width = 100F;
             this.versionsListView.Columns.AddRange(new Telerik.WinControls.UI.ListViewDetailColumn[] {
-            listViewDetailColumn1,
-            listViewDetailColumn2,
-            listViewDetailColumn3,
-            listViewDetailColumn4,
-            listViewDetailColumn5,
-            listViewDetailColumn6});
+            listViewDetailColumn11,
+            listViewDetailColumn12,
+            listViewDetailColumn13,
+            listViewDetailColumn14,
+            listViewDetailColumn15,
+            listViewDetailColumn16});
             this.versionsListView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.versionsListView.EnableColumnSort = true;
             this.versionsListView.EnableFiltering = true;
@@ -516,17 +504,17 @@ namespace MLauncher.Forms
             this.profilesListView.AllowRemove = false;
             this.profilesListView.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.profilesListView.CheckOnClickMode = Telerik.WinControls.UI.CheckOnClickMode.FirstClick;
-            listViewDetailColumn7.HeaderText = "ID";
-            listViewDetailColumn8.HeaderText = "Name";
-            listViewDetailColumn9.HeaderText = "Version";
-            listViewDetailColumn10.HeaderText = "Relase Configuration";
-            listViewDetailColumn11.HeaderText = "Launcher Visibility";
+            listViewDetailColumn1.HeaderText = "ID";
+            listViewDetailColumn2.HeaderText = "Name";
+            listViewDetailColumn3.HeaderText = "Version";
+            listViewDetailColumn4.HeaderText = "Relase Configuration";
+            listViewDetailColumn5.HeaderText = "Launcher Visibility";
             this.profilesListView.Columns.AddRange(new Telerik.WinControls.UI.ListViewDetailColumn[] {
-            listViewDetailColumn7,
-            listViewDetailColumn8,
-            listViewDetailColumn9,
-            listViewDetailColumn10,
-            listViewDetailColumn11});
+            listViewDetailColumn1,
+            listViewDetailColumn2,
+            listViewDetailColumn3,
+            listViewDetailColumn4,
+            listViewDetailColumn5});
             this.profilesListView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.profilesListView.EnableColumnSort = true;
             this.profilesListView.EnableFiltering = true;
@@ -572,6 +560,7 @@ namespace MLauncher.Forms
             this.GetMods.Controls.Add(this.radButton1);
             this.GetMods.Controls.Add(this.radTextBox1);
             this.GetMods.Controls.Add(this.radGroupBox1);
+            this.GetMods.ItemSize = new System.Drawing.SizeF(40F, 24F);
             this.GetMods.Location = new System.Drawing.Point(5, 30);
             this.GetMods.Name = "GetMods";
             this.GetMods.Size = new System.Drawing.Size(838, 293);
@@ -607,7 +596,7 @@ namespace MLauncher.Forms
             // 
             this.radButton1.Location = new System.Drawing.Point(506, 1);
             this.radButton1.Name = "radButton1";
-            this.radButton1.Size = new System.Drawing.Size(50, 24);
+            this.radButton1.Size = new System.Drawing.Size(70, 24);
             this.radButton1.TabIndex = 12;
             this.radButton1.Text = "Search";
             this.radButton1.ThemeName = "VisualStudio2012Dark";
@@ -639,11 +628,11 @@ namespace MLauncher.Forms
             // 
             this.radListControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             radListDataItem1.Text = "Optifine xD";
-            radListDataItem2.Text = "No Minecraft Mod";
-            radListDataItem3.Text = "Do you really read this?";
+            radListDataItem9.Text = "No Minecraft Mod";
+            radListDataItem10.Text = "Do you really read this?";
             this.radListControl2.Items.Add(radListDataItem1);
-            this.radListControl2.Items.Add(radListDataItem2);
-            this.radListControl2.Items.Add(radListDataItem3);
+            this.radListControl2.Items.Add(radListDataItem9);
+            this.radListControl2.Items.Add(radListDataItem10);
             this.radListControl2.Location = new System.Drawing.Point(2, 18);
             this.radListControl2.Name = "radListControl2";
             this.radListControl2.Size = new System.Drawing.Size(179, 273);
@@ -654,6 +643,7 @@ namespace MLauncher.Forms
             // 
             this.radPageViewPage2.Controls.Add(this.radButton2);
             this.radPageViewPage2.Controls.Add(this.radGroupBox2);
+            this.radPageViewPage2.ItemSize = new System.Drawing.SizeF(64F, 24F);
             this.radPageViewPage2.Location = new System.Drawing.Point(5, 30);
             this.radPageViewPage2.Name = "radPageViewPage2";
             this.radPageViewPage2.Size = new System.Drawing.Size(838, 293);
@@ -684,12 +674,12 @@ namespace MLauncher.Forms
             // radListControl1
             // 
             this.radListControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            radListDataItem4.Text = "Optifine xD";
-            radListDataItem5.Text = "No Minecraft Mod";
-            radListDataItem6.Text = "Do you really read this?";
+            radListDataItem2.Text = "Optifine xD";
+            radListDataItem3.Text = "No Minecraft Mod";
+            radListDataItem4.Text = "Do you really read this?";
+            this.radListControl1.Items.Add(radListDataItem2);
+            this.radListControl1.Items.Add(radListDataItem3);
             this.radListControl1.Items.Add(radListDataItem4);
-            this.radListControl1.Items.Add(radListDataItem5);
-            this.radListControl1.Items.Add(radListDataItem6);
             this.radListControl1.Location = new System.Drawing.Point(2, 18);
             this.radListControl1.Name = "radListControl1";
             this.radListControl1.Size = new System.Drawing.Size(196, 273);
@@ -724,6 +714,7 @@ namespace MLauncher.Forms
             // AboutPageViewPage
             // 
             this.AboutPageViewPage.Controls.Add(this.radScrollablePanel2);
+            this.AboutPageViewPage.ItemSize = new System.Drawing.SizeF(418F, 24F);
             this.AboutPageViewPage.Location = new System.Drawing.Point(5, 5);
             this.AboutPageViewPage.Name = "AboutPageViewPage";
             this.AboutPageViewPage.Size = new System.Drawing.Size(838, 293);
@@ -948,9 +939,9 @@ namespace MLauncher.Forms
             this.LangDropDownList.AutoCompleteDisplayMember = null;
             this.LangDropDownList.AutoCompleteValueMember = null;
             this.LangDropDownList.DropDownStyle = Telerik.WinControls.RadDropDownStyle.DropDownList;
-            radListDataItem7.Tag = "en_UK";
-            radListDataItem7.Text = "english";
-            this.LangDropDownList.Items.Add(radListDataItem7);
+            radListDataItem5.Tag = "en_UK";
+            radListDataItem5.Text = "english";
+            this.LangDropDownList.Items.Add(radListDataItem5);
             this.LangDropDownList.Location = new System.Drawing.Point(150, 21);
             this.LangDropDownList.Name = "LangDropDownList";
             this.LangDropDownList.Size = new System.Drawing.Size(202, 24);
@@ -1042,6 +1033,7 @@ namespace MLauncher.Forms
             // LicensesPage
             // 
             this.LicensesPage.Controls.Add(this.licensePageView);
+            this.LicensesPage.ItemSize = new System.Drawing.SizeF(430F, 24F);
             this.LicensesPage.Location = new System.Drawing.Point(5, 5);
             this.LicensesPage.Name = "LicensesPage";
             this.LicensesPage.Size = new System.Drawing.Size(838, 293);
@@ -1064,6 +1056,7 @@ namespace MLauncher.Forms
             // MLauncherLicense
             // 
             this.MLauncherLicense.Controls.Add(this.MLauncherLicenseText);
+            this.MLauncherLicense.ItemSize = new System.Drawing.SizeF(94F, 26F);
             this.MLauncherLicense.Location = new System.Drawing.Point(155, 4);
             this.MLauncherLicense.Name = "MLauncherLicense";
             this.MLauncherLicense.Size = new System.Drawing.Size(679, 285);
@@ -1085,6 +1078,7 @@ namespace MLauncher.Forms
             // 
             this.dotMCLauncherLicense.AutoScroll = true;
             this.dotMCLauncherLicense.Controls.Add(this.dotMCLauncherLicenseText);
+            this.dotMCLauncherLicense.ItemSize = new System.Drawing.SizeF(94F, 26F);
             this.dotMCLauncherLicense.Location = new System.Drawing.Point(155, 4);
             this.dotMCLauncherLicense.Name = "dotMCLauncherLicense";
             this.dotMCLauncherLicense.Size = new System.Drawing.Size(679, 285);
@@ -1112,6 +1106,23 @@ namespace MLauncher.Forms
             this.StatusBar.Text = "StatusBar";
             this.StatusBar.ThemeName = "VisualStudio2012Dark";
             this.StatusBar.Visible = false;
+            // 
+            // object_d04bbd82_0879_4d0c_8dbd_d5b9ad368291
+            // 
+            this.object_d04bbd82_0879_4d0c_8dbd_d5b9ad368291.Name = "object_d04bbd82_0879_4d0c_8dbd_d5b9ad368291";
+            this.object_d04bbd82_0879_4d0c_8dbd_d5b9ad368291.StretchHorizontally = true;
+            this.object_d04bbd82_0879_4d0c_8dbd_d5b9ad368291.StretchVertically = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(664, 42);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(180, 283);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // radPanel1
             // 
@@ -1244,12 +1255,6 @@ namespace MLauncher.Forms
             this.AddProfile.ThemeName = "VisualStudio2012Dark";
             this.AddProfile.Click += new System.EventHandler(this.AddProfile_Click);
             // 
-            // object_d04bbd82_0879_4d0c_8dbd_d5b9ad368291
-            // 
-            this.object_d04bbd82_0879_4d0c_8dbd_d5b9ad368291.Name = "object_d04bbd82_0879_4d0c_8dbd_d5b9ad368291";
-            this.object_d04bbd82_0879_4d0c_8dbd_d5b9ad368291.StretchHorizontally = true;
-            this.object_d04bbd82_0879_4d0c_8dbd_d5b9ad368291.StretchVertically = true;
-            // 
             // LauncherForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1273,7 +1278,6 @@ namespace MLauncher.Forms
             this.Hotbar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radListView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.News.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.navBar)).EndInit();
             this.navBar.ResumeLayout(false);
@@ -1342,6 +1346,7 @@ namespace MLauncher.Forms
             this.dotMCLauncherLicense.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dotMCLauncherLicenseText)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.StatusBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);
             this.radPanel1.PerformLayout();

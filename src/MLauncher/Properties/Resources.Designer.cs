@@ -73,6 +73,26 @@ namespace MLauncher.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap edit_dark {
+            get {
+                object obj = ResourceManager.GetObject("edit_dark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MHF_Steve {
+            get {
+                object obj = ResourceManager.GetObject("MHF_Steve", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap minecraft_dirt {
             get {
                 object obj = ResourceManager.GetObject("minecraft_dirt", resourceCulture);
@@ -96,6 +116,16 @@ namespace MLauncher.Properties {
         internal static System.Drawing.Bitmap trash {
             get {
                 object obj = ResourceManager.GetObject("trash", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trash_dark {
+            get {
+                object obj = ResourceManager.GetObject("trash_dark", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

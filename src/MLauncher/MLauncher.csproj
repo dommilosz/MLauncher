@@ -395,6 +395,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\MHF_Steve.png" />
+    <None Include="Resources\trash_dark.png" />
+    <None Include="Resources\edit_dark.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
